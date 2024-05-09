@@ -54,3 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['SiteController/editPost/(:num)'] = 'SiteController/editPost/$1';
 $route['SiteController/deletePost/(:num)'] = 'SiteController/deletePost/$1';
+$route['SiteController/viewPost/(:num)'] = 'SiteController/viewPost/$1';

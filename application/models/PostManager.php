@@ -47,6 +47,21 @@ class PostManager extends CI_Model {
         }
     }
 
+    /**
+     * @param $postId
+     * @return mixed
+     *
+     * Method to edit selected post.
+     */
+    public function viewSelectedPost($postId) {
+        $this->db->where('postId', $postId);
+        $result = $this->db->get('post');
+
+             if($result->num_rows() > 0) {
+                 return $result->custom_result_object('Post');
+             }
+    }
+
 
     /**
      * @param $postId

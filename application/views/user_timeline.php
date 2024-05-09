@@ -115,6 +115,9 @@
 
                         echo $output
                         ?></p>
+                        <a href="<?php echo site_url('/SiteController/viewPost/'. $post->postId);?>">
+                            View Post
+                        </a>
                         
                         <div>
                         <form method="post" action="<?php echo site_url('SiteController/likePost');?>">

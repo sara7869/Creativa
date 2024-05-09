@@ -229,6 +229,18 @@ class SiteController extends CI_Controller
         }
     }
 
+    public function viewPost($postId) {
+        // Load the post data from the database
+        $post = $this->Post->getPostContent($postId);
+        $viewPostResult = $this->PostManager->viewSelectedPost($postId);
+        // Load the view and pass the post data to it
+        // $this->load->view('single_post', ['post' => $post]);
+        $this->load->view('header');
+        $this->load->view('navigation_bar');
+        $this->load->view('single_post', array('posts' => $viewPostResult));
+        $this->load->view('footer');
+    }
+
     /**
      * Edit logged in user's selected post using post ID.
      */
