@@ -106,7 +106,7 @@ class PostManager extends CI_Model {
 
         $userPosts = array();
         $otherPosts = array();
-        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime');
+        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count');
         $this->db->from('post');
         $this->db->join('user', 'user.userId = post.userId');
         $this->db->where('user.userId', $userId);
@@ -118,7 +118,7 @@ class PostManager extends CI_Model {
         }
 
 
-        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime');
+        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count');
         $this->db->from('post');
         $this->db->join('connection', 'post.userId = connection.followingUserId');
         $this->db->join('user', 'connection.followingUserId = user.userId');
@@ -166,6 +166,85 @@ class PostManager extends CI_Model {
             return 'Error';
         }
 
+    }
+
+    public function likePost($postId, $userId) {
+        if (!is_numeric($postId) ||!is_numeric($userId)) {
+            // Handle invalid input, e.g., log an error or throw an exception
+            return false;
+        }
+        // Check if the user has already liked the post
+        $isLiked = $this->checkIfUserLikedPost($postId, $userId);
+        if ($isLiked) {
+            // User has already liked the post, so unlike it
+            $result =$this->unlikePost($postId, $userId);
+            if (!$result) {
+                // Log or handle the error
+                return false;
+            }
+        } else {
+            // User has not liked the post, so like it
+            $result = $this->likePostCount($postId);
+            if (!$result) {
+                // Log or handle the error
+                return false;
+            }
+            $result = $this->addUserToLikes($postId, $userId);
+            echo "User added to likes.";
+            if (!$result) {
+                echo "Error adding user to likes.";
+                // Log or handle the error
+                return false;
+            }
+        }
+    
+        return true;
+    }
+
+    private function checkIfUserLikedPost($postId, $userId) {
+        $this->db->where('post_id', $postId);
+        $this->db->where('user_id', $userId);
+        $query = $this->db->get('likes');
+        if ($query->num_rows() > 0) {
+            return true; // User has liked the post
+        } else {
+            return false; // User has not liked the post
+        }
+    }
+
+    private function unlikePost($postId, $userId) {
+        $this->db->where('postId', $postId);
+        $this->db->where('userId', $userId);
+        $this->db->delete('likes');
+    
+        $this->db->where('postId', $postId);
+        // $this->db->set('like_count', 'like_count - 1', FALSE);
+        $result = $this->db->update('post', array('like_count' => 'like_count - 1'));
+        $this->db->update('post');
+        return $result;
+    }
+
+    private function likePostCount($postId) {
+        try {
+            $this->db->where('postId', $postId);
+            // $result = $this->db->update('post', array('like_count' => 'like_count + 1'));
+            $this->db->set('like_count', 'like_count + 1', FALSE);
+            $this->db->update('post');
+            return true;
+        } catch (Exception $e) {
+            // Log the error message
+            error_log($e->getMessage());
+            return false;
+        }
+    }
+
+    private function addUserToLikes($postId, $userId) {
+        $data = array(
+            'post_id' => $postId,
+            'user_id' => $userId
+        );
+        $this->db->insert('likes', $data);
+        return true;
     }
 
 }

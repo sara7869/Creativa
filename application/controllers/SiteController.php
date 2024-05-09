@@ -194,8 +194,8 @@ class SiteController extends CI_Controller
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[140]',
-            array('max_length' => 'Maximum character length of a post is 140.'));
+        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[1000]',
+            array('max_length' => 'Maximum character length of a post is 1000.'));
 
         if ($this->form_validation->run() == FALSE) {
             $this->homepage();
@@ -215,8 +215,8 @@ class SiteController extends CI_Controller
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[140]',
-            array('max_length' => 'Maximum character length of a post is 140.'));
+        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[1000]',
+            array('max_length' => 'Maximum character length of a post is 1000.'));
 
         if ($this->form_validation->run() == FALSE) {
             $this->homepage();
@@ -254,8 +254,8 @@ class SiteController extends CI_Controller
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[140]',
-            array('max_length' => 'Maximum character length of a post is 140.'));
+        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[1000]',
+            array('max_length' => 'Maximum character length of a post is 1000.'));
 
         if ($this->form_validation->run() == FALSE) {
             $this->editPost();
@@ -281,6 +281,26 @@ class SiteController extends CI_Controller
         }
         $deletePostResult = $this->PostManager->deleteSelectedPost($postId);
         redirect('/SiteController/homepage');
+    }
+
+    public function likePost($postId) {
+
+        if (!$this->session->userdata('user_logged_in')) {
+            redirect('/UserController/login');
+        }
+        $postId = $this->input->post('postId');
+        $userId = $this->session->userdata('userId');
+        $this->PostManager->likePost($postId, $userId);
+        // redirect('/SiteController/timelinePage');
+    }
+    
+    public function displayLikeButton($postId) {
+        if (!$this->session->userdata('user_logged_in')) {
+            redirect('/UserController/login');
+        }
+        $userId = $this->session->userdata('userId');
+        $isLiked = $this->PostManager->checkIfUserLikedPost($postId, $userId);
+        $this->load->view('like_button', array('postId' => $postId, 'isLiked' => $isLiked));
     }
 
     /**

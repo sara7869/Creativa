@@ -115,6 +115,19 @@
 
                         echo $output
                         ?></p>
+                        
+                        <div>
+                        <form method="post" action="<?php echo site_url('SiteController/likePost');?>">
+                            <div class="like-button">
+                                <input type="hidden" name="postId" value="<?php echo $postId;?>">
+                                <button type="submit" class="btn btn-primary">Like</button>
+                            </div>
+                        </form>
+                        </div>
+                        
+                        <div class="like-count">
+                            Likes: <?php echo $post->like_count;?>
+                        </div>
                 </div>
 
             <?php } ?>

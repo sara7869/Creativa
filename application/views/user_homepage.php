@@ -1,5 +1,4 @@
 <style>
-
     .submit-button {
         text-align: center;
     }
@@ -45,7 +44,6 @@
     .maincontent {
         min-width: 800px;
     }
-
 </style>
 
 <div class="ui raised very padded text container segment center aligned">
@@ -69,8 +67,8 @@
                             </div>
                         <?php } ?>
                         <div class="description">
-                            <?php if($genreData[0]->getTransformedLikedGenres() !== '') {?>
-                            Genres: <?php echo $genreData[0]->getTransformedLikedGenres(); ?>
+                            <?php if ($genreData[0]->getTransformedLikedGenres() !== '') { ?>
+                                Genres: <?php echo $genreData[0]->getTransformedLikedGenres(); ?>
                             <?php } ?>
                         </div>
                     </div>
@@ -105,47 +103,45 @@
 </div>
 
 <?php if ($posts !== null) { ?>
-<div class="ui raised very padded text container segment">
-    <ul>
-        <?php foreach ($posts as $obj) { ?>
+    <div class="ui raised very padded text container segment">
+        <ul>
+            <?php foreach ($posts as $obj) { ?>
 
-            <div class="ui segment posts">
-                <div class="postAvatarImage">
-                    <p><img align="top" src="<?php echo $profileData[0]->getAvatarUrl(); ?>">
-                        <?php if ($profileData[0]->getProfileName() !== NULL) { ?>
-                            <b style="margin-left: 10px;"><?php echo $profileData[0]->getProfileName(); ?></b><?php echo ' @' . $profileData[0]->getUsername(); ?>
-                        <?php } else { ?>
-                            <b><?php echo '@' . $profileData[0]->getUsername(); ?></b>
-                        <?php } ?>
-                    <div class="ui text menu" style="margin-top: -75px;">
-                        <div class="ui right dropdown item">
-                            Options
-                            <i class="dropdown icon"></i>
-                            <div class="menu">
-                                <div class="item"><a
-                                            href="<?php echo site_url('/SiteController/editPost/' . $obj->getPostId()); ?>">Edit
-                                        Post</a></div>
-                                <div class="item"><a
-                                            href="<?php echo site_url('/SiteController/deletePost/' . $obj->getPostId()); ?>">Delete
-                                        Post</a></div>
+                <div class="ui segment posts">
+                    <div class="postAvatarImage">
+                        <p><img align="top" src="<?php echo $profileData[0]->getAvatarUrl(); ?>">
+                            <?php if ($profileData[0]->getProfileName() !== NULL) { ?>
+                                <b style="margin-left: 10px;"><?php echo $profileData[0]->getProfileName(); ?></b><?php echo ' @' . $profileData[0]->getUsername(); ?>
+                            <?php } else { ?>
+                                <b><?php echo '@' . $profileData[0]->getUsername(); ?></b>
+                            <?php } ?>
+                        <div class="ui text menu" style="margin-top: -75px;">
+                            <div class="ui right dropdown item">
+                                Options
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/editPost/' . $obj->getPostId()); ?>">Edit
+                                            Post</a></div>
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/deletePost/' . $obj->getPostId()); ?>">Delete
+                                            Post</a></div>
+                                </div>
                             </div>
                         </div>
+                        </p>
                     </div>
-                    </p>
-                </div>
-                <br>
-                <p class="postContent"
-                   style="margin-left: 65px;"><?php echo $obj->getPostContent(); ?></p>
-            </div>
+                    <br>
+                    <p class="postContent" style="margin-left: 65px;"><?php echo $obj->getPostContent(); ?></p>
+                    <?php $this->load->view('like_button', ['postId' => $obj->getPostId(), 'isLiked' => $isLiked]); ?>
 
-        <?php } ?>
-    </ul>
-</div>
+                </div>
+
+            <?php } ?>
+        </ul>
+    </div>
 <?php } ?>
 
 <script>
     document.title = "Home";
     $('.ui.dropdown')
-        .dropdown()
-    ;
+        .dropdown();
 </script>

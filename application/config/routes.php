@@ -52,3 +52,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'SiteController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['SiteController/editPost/(:num)'] = 'SiteController/editPost/$1';
+$route['SiteController/deletePost/(:num)'] = 'SiteController/deletePost/$1';
