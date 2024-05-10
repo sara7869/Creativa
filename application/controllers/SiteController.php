@@ -13,6 +13,7 @@ class SiteController extends CI_Controller
         parent::__construct();
         $this->load->model('UserManager');
         $this->load->model('PostManager');
+        $this->load->model('Comment');
         $this->form_validation->set_error_delimiters('<div class="errorMessage">', '</div><br>');
     }
 
@@ -323,6 +324,9 @@ class SiteController extends CI_Controller
     }
 
     public function add_comment() {
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
         if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
@@ -340,7 +344,7 @@ class SiteController extends CI_Controller
     
         $result = $this->Comment->add_comment($data);
         // echo json_encode($result);
-        // redirect('SiteController/viewPost/'. $postId);
+        redirect('SiteController/viewPost/'. $postId);
     }
 
     /**

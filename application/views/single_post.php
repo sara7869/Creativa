@@ -45,9 +45,9 @@
                 <div class="comments" style="margin-top: 1.5rem;">
                     <h3>Comments</h3>
                     <?php foreach ($comments as $comment) :?>
-                        <div class="comment">
+                        <div class="comment" style="margin-bottom: 1.5rem;">
                             <p><strong>User <?php echo $comment['user_id'];?></strong> said:</p>
-                            <p><?php echo $comment['comment'];?></p>
+                            <?php echo $comment['comment'];?>
                         </div>
                     <?php endforeach;?>
                 </div>
@@ -56,7 +56,7 @@
                 <form class="ui form" action="<?php echo site_url('SiteController/add_comment');?>" method="post">
                     <input type="hidden" name="postId" value="<?php echo $postId;?>">
                     <textarea name="comment"></textarea>
-                    <button type="submit" class="grey button">Add Comment</button>
+                    <button type="submit" class=" ui grey button" style="margin-top: 1rem;">Add Comment</button>
                 </form>
             </div>
 

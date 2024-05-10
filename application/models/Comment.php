@@ -31,11 +31,11 @@ class Comment extends CI_Model
         //     return false;
         // }
 
-        // // Insert the comment into the database
+        // Insert the comment into the database
         $this->db->insert('comments', $data);
 
-        // // Optionally, return the ID of the inserted comment
-        // return $this->db->insert_id();
+        // Optionally, return the ID of the inserted comment
+        return $this->db->insert_id();
         return true;
     }
 
