@@ -230,14 +230,22 @@ class SiteController extends CI_Controller
     }
 
     public function viewPost($postId) {
-        // Load the post data from the database
         $post = $this->Post->getPostContent($postId);
         $viewPostResult = $this->PostManager->viewSelectedPost($postId);
-        // Load the view and pass the post data to it
-        // $this->load->view('single_post', ['post' => $post]);
+        $comments = $this->PostManager->getCommentsForPost($postId);
+        $likes = $this->PostManager->getLikesForPost($postId);
+
+        $data = array(
+            'postId' => $postId,
+            'post' => $post,
+            'posts' => $viewPostResult,
+            'comments' => $comments,
+            'likes' => $likes
+        );
+
         $this->load->view('header');
         $this->load->view('navigation_bar');
-        $this->load->view('single_post', array('posts' => $viewPostResult));
+        $this->load->view('single_post', $data);
         $this->load->view('footer');
     }
 
@@ -296,7 +304,6 @@ class SiteController extends CI_Controller
     }
 
     public function likePost($postId) {
-
         if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
@@ -313,6 +320,27 @@ class SiteController extends CI_Controller
         $userId = $this->session->userdata('userId');
         $isLiked = $this->PostManager->checkIfUserLikedPost($postId, $userId);
         $this->load->view('like_button', array('postId' => $postId, 'isLiked' => $isLiked));
+    }
+
+    public function add_comment() {
+        if (!$this->session->userdata('user_logged_in')) {
+            redirect('/UserController/login');
+        }
+
+        $comment = $this->input->post('comment');
+        $postId = $this->input->post('postId');
+
+        $userId = $this->session->userdata('userId');
+        $data = array(
+            'post_id' => $postId,
+            'user_id' => $userId,
+            'comment' => $comment
+        );
+        // echo json_encode($data);
+    
+        $result = $this->Comment->add_comment($data);
+        // echo json_encode($result);
+        // redirect('SiteController/viewPost/'. $postId);
     }
 
     /**

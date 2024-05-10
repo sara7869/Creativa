@@ -123,7 +123,7 @@
                         <form method="post" action="<?php echo site_url('SiteController/likePost');?>">
                             <div class="like-button">
                                 <input type="hidden" name="postId" value="<?php echo $postId;?>">
-                                <button type="submit" class="btn btn-primary">Like</button>
+                                <button type="submit" class="btn ui grey button">Like</button>
                             </div>
                         </form>
                         </div>

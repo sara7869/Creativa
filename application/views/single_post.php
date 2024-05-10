@@ -1,5 +1,4 @@
 <style>
-
     .submit-button {
         text-align: center;
     }
@@ -26,7 +25,6 @@
     .errorMessage {
         color: red;
     }
-
 </style>
 
 <div class="ui vertically divided grid">
@@ -36,17 +34,32 @@
             <div class="ui container segment">
                 <?php echo validation_errors(); ?>
 
-                <?php echo form_open(site_url('/SiteController/viewPost/' . $posts[0]->getPostId())); ?>
+                <div class="post-content">
+                    <?php echo $post['postContent'];?>
+                </div>
 
-                    <div class="ui form">
-                        <div class="field">
-                            <label>Post Content</label>
-                            <textarea spellcheck="false" id="postContent" name="postContent" required readonly><?php echo $posts[0]->getRawPostContent(); ?></textarea>
+                <div class="likes" style="margin-top: 1.5rem;">
+                    <p><strong>Likes: <?php echo count($likes);?></strong></p>
+                </div>
+
+                <div class="comments" style="margin-top: 1.5rem;">
+                    <h3>Comments</h3>
+                    <?php foreach ($comments as $comment) :?>
+                        <div class="comment">
+                            <p><strong>User <?php echo $comment['user_id'];?></strong> said:</p>
+                            <p><?php echo $comment['comment'];?></p>
                         </div>
+                    <?php endforeach;?>
+                </div>
 
-                    </div>
-                <?php echo form_close(); ?>
+                <!-- Your existing form for adding a comment -->
+                <form class="ui form" action="<?php echo site_url('SiteController/add_comment');?>" method="post">
+                    <input type="hidden" name="postId" value="<?php echo $postId;?>">
+                    <textarea name="comment"></textarea>
+                    <button type="submit" class="grey button">Add Comment</button>
+                </form>
             </div>
+
         </div>
         <div class="column"></div>
     </div>

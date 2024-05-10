@@ -53,14 +53,14 @@ class PostManager extends CI_Model {
      *
      * Method to edit selected post.
      */
-    public function viewSelectedPost($postId) {
-        $this->db->where('postId', $postId);
-        $result = $this->db->get('post');
+    // public function viewSelectedPost($postId) {
+    //     $this->db->where('postId', $postId);
+    //     $result = $this->db->get('post');
 
-             if($result->num_rows() > 0) {
-                 return $result->custom_result_object('Post');
-             }
-    }
+    //          if($result->num_rows() > 0) {
+    //              return $result->custom_result_object('Post');
+    //          }
+    // }
 
 
     /**
@@ -107,6 +107,15 @@ class PostManager extends CI_Model {
     public function deleteSelectedPost($postId) {
         $this->db->where('postId', $postId);
         $this->db->delete('post');
+    }
+
+    public function viewSelectedPost($postId) {
+        return $this->getPostContent($postId);
+    }
+
+    public function getPostContent($postId) {
+        $query = $this->db->get_where('post', array('postId' => $postId));
+        return $query->row_array();
     }
 
 
@@ -260,6 +269,48 @@ class PostManager extends CI_Model {
         );
         $this->db->insert('likes', $data);
         return true;
+    }
+
+    // private function getCommentsForPost($postId) {
+    //     try {
+    //         $this->db->where('post_id', $postId);
+    //         $query = $this->db->get('comments');
+    //         return $query->result();
+
+    //     } catch (Exception $e) {
+    //         // Log the error message
+    //         error_log($e->getMessage());
+    //         return false;
+    //     }
+    // }
+
+    // public function getLikesForPost($postId) {
+    //     try {
+    //         $this->db->where('post_id', $postId);
+    //         $query = $this->db->get('likes');
+    //         return $query->result();
+
+    //     } catch (Exception $e) {
+    //         // Log the error message
+    //         error_log($e->getMessage());
+    //         return false;
+    //     }
+    // }
+
+    public function getCommentsForPost($postId) {
+        $this->db->select('*');
+        $this->db->from('comments');
+        $this->db->where('post_id', $postId);
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    public function getLikesForPost($postId) {
+        $this->db->select('*');
+        $this->db->from('likes');
+        $this->db->where('post_id', $postId);
+        $query = $this->db->get();
+        return $query->result_array();
     }
 
 }
