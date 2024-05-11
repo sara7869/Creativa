@@ -297,6 +297,12 @@ class PostManager extends CI_Model {
     //         return false;
     //     }
     // }
+    public function searchPosts($query) {
+        $this->db->like('title', $query);
+        $this->db->or_like('postContent', $query);
+        $query = $this->db->get('post');
+        return $query->result();
+    }
 
     public function getCommentsForPost($postId) {
         $this->db->select('*');

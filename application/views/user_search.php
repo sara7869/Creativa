@@ -15,8 +15,8 @@
 </style>
 
 <div class="ui raised very padded text container segment center aligned">
-    <form class="search_users" action="<?php echo site_url('/SiteController/searchUser'); ?>" method="post">
-        <div class="move">
+    <form class="search_users" action="<?php echo site_url('/SiteController/search'); ?>" method="get">
+        <!-- <div class="move">
             <div class="ui fluid inner search selection dropdown">
                 <input type="hidden" name="genres" id="genres">
                 <i class="dropdown icon"></i>
@@ -32,7 +32,8 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
+        <input type="text" name="query" placeholder="Search for posts or users...">
 
         <br><br>
         <button class="ui grey button" type="submit">Search</button>

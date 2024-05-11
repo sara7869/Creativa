@@ -144,7 +144,7 @@ class UserManager extends CI_Model
      *
      * populating the search page with proper follow/unfollow buttons by combining all 3 connection, genre & user tables.
      */
-    public function searchUsers($userId, $selectedGenre) {
+    public function searchUsersWithGenre($userId, $selectedGenre) {
         $followingList = array();
         $nonFollowingList = array();
         $finalGenreResult = null;
@@ -188,6 +188,12 @@ class UserManager extends CI_Model
             }
         }
         return array($followingList, $nonFollowingList, $finalGenreResult);
+    }
+
+    public function searchUsers($query) {
+        $this->db->like('username', $query);
+        $query = $this->db->get('user');
+        return $query->result();
     }
 
 

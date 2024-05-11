@@ -1,6 +1,6 @@
 <?php
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class SiteController extends CI_Controller
 {
@@ -9,7 +9,8 @@ class SiteController extends CI_Controller
      * SiteController constructor.
      * Loads both the UserManager & PostManager Models to deal with various tasks.
      */
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
         $this->load->model('UserManager');
         $this->load->model('PostManager');
@@ -17,7 +18,8 @@ class SiteController extends CI_Controller
         $this->form_validation->set_error_delimiters('<div class="errorMessage">', '</div><br>');
     }
 
-    public function index() {
+    public function index()
+    {
         $this->load->view('header');
         $this->load->view('navigation_bar');
         $this->load->view('user_login');
@@ -28,27 +30,31 @@ class SiteController extends CI_Controller
     /**
      * Loads the profile edit/update page to gather additional data such as Profile name, email address, Avatar image URL, Genres that the user likes.
      */
-    public function profile() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function profile()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
         $this->load->view('header');
         $this->load->view('navigation_bar');
         $profileResult = $this->UserManager->getProfileData($userId);
-        $this->load->view('user_profile', array('profileData' => $profileResult[0],
-            'genreData' => $profileResult[1]));
+        $this->load->view('user_profile', array(
+            'profileData' => $profileResult[0],
+            'genreData' => $profileResult[1]
+        ));
         $this->load->view('footer');
     }
 
     /**
      * Loads the home page of a logged in user.
      */
-    public function homepage() {
+    public function homepage()
+    {
         // ini_set('display_errors', 1);
         // ini_set('display_startup_errors', 1);
         // error_reporting(E_ALL);
-        if(!$this->session->userdata('user_logged_in')) {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $this->load->view('header');
@@ -61,8 +67,9 @@ class SiteController extends CI_Controller
     /**
      * Loads the timeline page where the user will be able to see both his posts and the posts of the users' he's following.
      */
-    public function timelinePage() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function timelinePage()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
@@ -76,22 +83,23 @@ class SiteController extends CI_Controller
     /**
      * Loads the search page where the user will be able to find other users under a selected genre.
      */
-    public function searchPage() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function searchPage()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $this->load->view('header');
         $this->load->view('navigation_bar');
         $this->displaySearch();
         $this->load->view('footer');
-
     }
 
     /**
      * Loads a selected user's public home page.
      */
-    public function viewUserProfile() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function viewUserProfile()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $this->load->view('header');
@@ -103,8 +111,9 @@ class SiteController extends CI_Controller
     /**
      * Load connections page (Shows followers/following users & friends)
      */
-    public function connections() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function connections()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
@@ -113,15 +122,18 @@ class SiteController extends CI_Controller
         $followingResult = $this->UserManager->getFollowing($userId);
         $followerResult = $this->UserManager->getFollowers($userId);
         $friendsResult = $this->UserManager->getFriends($userId);
-        $this->load->view('user_connections', array('followingData' => $followingResult,
+        $this->load->view('user_connections', array(
+            'followingData' => $followingResult,
             'followerData' => $followerResult,
-            'friendsData' => $friendsResult));
+            'friendsData' => $friendsResult
+        ));
         $this->load->view('footer');
     }
 
 
-    public function contactsList() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function contactsList()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $this->load->view('header');
@@ -133,25 +145,43 @@ class SiteController extends CI_Controller
     /**
      * Validations for handling editing/updating profile section
      */
-    public function createProfile() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function createProfile()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('profileName', 'Profile Name', 'trim|required|min_length[8]|max_length[32]|is_unique[user.username]',
-            array('min_length' => 'Username length has to be between 8 & 32 characters.',
+        $this->form_validation->set_rules(
+            'profileName',
+            'Profile Name',
+            'trim|required|min_length[8]|max_length[32]|is_unique[user.username]',
+            array(
+                'min_length' => 'Username length has to be between 8 & 32 characters.',
                 'max_length' => 'Username length has to be between 8 & 32 characters.',
-                'is_unique' => 'Username is already in use.'));
-        $this->form_validation->set_rules('avatarUrl', 'Avatar URL', 'trim|valid_url|max_length[1024]',
-            array('max_length' => 'Avatar URL character length is restricted to 1024.',
-                'matches' => 'Passwords do not match.'));
+                'is_unique' => 'Username is already in use.'
+            )
+        );
+        $this->form_validation->set_rules(
+            'avatarUrl',
+            'Avatar URL',
+            'trim|valid_url|max_length[1024]',
+            array(
+                'max_length' => 'Avatar URL character length is restricted to 1024.',
+                'matches' => 'Passwords do not match.'
+            )
+        );
         $this->form_validation->set_rules('genres', 'Genre Selection', 'required');
-        $this->form_validation->set_rules('emailAddress', 'Email Address', 'trim|required|valid_email|max_length[64]',
-            array('valid_email' => 'Email address is not valid.',
-                'max_length' => 'Maximum character length of the Email address is only 64.'));
+        $this->form_validation->set_rules(
+            'emailAddress',
+            'Email Address',
+            'trim|required|valid_email|max_length[64]',
+            array(
+                'valid_email' => 'Email address is not valid.',
+                'max_length' => 'Maximum character length of the Email address is only 64.'
+            )
+        );
 
         if ($this->form_validation->run() == FALSE) {
             $this->profile();
-
         } else {
             $userId = $this->session->userdata('userId');
             $formProfileName = $this->input->post('profileName');
@@ -161,14 +191,14 @@ class SiteController extends CI_Controller
             $createProfileResult = $this->UserManager->createProfile($userId, $formProfileName, $formAvatarUrl, $formGenres, $formEmail);
             redirect('/SiteController/homepage');
         }
-
     }
 
     /**
      * Delete logged in user's profile
      */
-    public function deleteProfile() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function deleteProfile()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
@@ -179,30 +209,34 @@ class SiteController extends CI_Controller
     /**
      * Display logged in user's home page.
      */
-    public function displayProfileData() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function displayProfileData()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
         $profileResult = $this->UserManager->getProfileData($userId);
         $postResult = $this->PostManager->retrievePosts($userId);
-        $this->load->view('user_homepage', array('posts' => $postResult,
+        $this->load->view('user_homepage', array(
+            'posts' => $postResult,
             'profileData' => $profileResult[0],
-            'genreData' => $profileResult[1]));
+            'genreData' => $profileResult[1]
+        ));
     }
 
     /**
      * Create post within user's home page
      */
-    public function createHomePost() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function createHomePost()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-    
+
         $this->form_validation->set_rules('title', 'Title', 'required|max_length[255]');
         $this->form_validation->set_rules('content', 'Content', 'required|max_length[1000]');
         $this->form_validation->set_rules('image', 'Image URL', 'valid_url|max_length[255]');
-    
+
         if ($this->form_validation->run() == FALSE) {
             $this->homepage();
         } else {
@@ -220,30 +254,32 @@ class SiteController extends CI_Controller
     /**
      * Create post from timeline page.
      */
-    public function createTimelinePost() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function createTimelinePost()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-    
+
         // $this->form_validation->set_rules('title', 'Title', 'required|max_length[255]');
         // $this->form_validation->set_rules('content', 'Content', 'required|max_length[1000]');
         // $this->form_validation->set_rules('image', 'Image URL', 'valid_url|max_length[255]');
-    
+
         // if ($this->form_validation->run() == FALSE) {
         //     $this->homepage();
         // } else {
-            $postData = array(
-                'title' => $this->input->post('title'),
-                'postContent' => $this->input->post('postContent'),
-                'image' => $this->input->post('image')
-            );
-            $userId = $this->session->userdata('userId');
-            $createPostResult = $this->PostManager->createPost($postData, $userId);
-            redirect('/SiteController/timelinePage');
+        $postData = array(
+            'title' => $this->input->post('title'),
+            'postContent' => $this->input->post('postContent'),
+            'image' => $this->input->post('image')
+        );
+        $userId = $this->session->userdata('userId');
+        $createPostResult = $this->PostManager->createPost($postData, $userId);
+        redirect('/SiteController/timelinePage');
         // }
     }
 
-    public function viewPost($postId) {
+    public function viewPost($postId)
+    {
         $post = $this->Post->getPostContent($postId);
         $viewPostResult = $this->PostManager->viewSelectedPost($postId);
         $comments = $this->PostManager->getCommentsForPost($postId);
@@ -268,13 +304,14 @@ class SiteController extends CI_Controller
     /**
      * Edit logged in user's selected post using post ID.
      */
-    public function editPost() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function editPost()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $postId = $this->uri->segment(3);
         $editPostResult = $this->PostManager->editSelectedPost($postId);
-        if($this->PostManager->getPostOwnerId($postId) === 'Error' OR $this->session->userdata('userId') != $editPostResult[0]->getUserId()){
+        if ($this->PostManager->getPostOwnerId($postId) === 'Error' or $this->session->userdata('userId') != $editPostResult[0]->getUserId()) {
             redirect('/SiteController/homepage');
         }
         $this->load->view('header');
@@ -286,16 +323,20 @@ class SiteController extends CI_Controller
     /**
      * validation for updating edited post
      */
-    public function updatePost() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function updatePost()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[1000]',
-            array('max_length' => 'Maximum character length of a post is 1000.'));
+        $this->form_validation->set_rules(
+            'postContent',
+            'Post Content',
+            'required|max_length[1000]',
+            array('max_length' => 'Maximum character length of a post is 1000.')
+        );
 
         if ($this->form_validation->run() == FALSE) {
             $this->editPost();
-
         } else {
             $postContent = $this->input->post('postContent');
             $postId = $this->uri->segment(3);
@@ -307,19 +348,21 @@ class SiteController extends CI_Controller
     /**
      * Delete logged in user's selected post.
      */
-    public function deletePost() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function deletePost()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $postId = $this->uri->segment(3);
-        if($this->session->userdata('userId') != $this->PostManager->getPostOwnerId($postId)){
+        if ($this->session->userdata('userId') != $this->PostManager->getPostOwnerId($postId)) {
             redirect('/UserController/login');
         }
         $deletePostResult = $this->PostManager->deleteSelectedPost($postId);
         redirect('/SiteController/homepage');
     }
 
-    public function likePost($postId) {
+    public function likePost($postId)
+    {
         if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
@@ -328,8 +371,9 @@ class SiteController extends CI_Controller
         $this->PostManager->likePost($postId, $userId);
         // redirect('/SiteController/timelinePage');
     }
-    
-    public function displayLikeButton($postId) {
+
+    public function displayLikeButton($postId)
+    {
         if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
@@ -338,7 +382,8 @@ class SiteController extends CI_Controller
         $this->load->view('like_button', array('postId' => $postId, 'isLiked' => $isLiked));
     }
 
-    public function add_comment() {
+    public function add_comment()
+    {
         ini_set('display_errors', 1);
         ini_set('display_startup_errors', 1);
         error_reporting(E_ALL);
@@ -356,38 +401,52 @@ class SiteController extends CI_Controller
             'comment' => $comment
         );
         // echo json_encode($data);
-    
+
         $result = $this->Comment->add_comment($data);
         // echo json_encode($result);
-        redirect('SiteController/viewPost/'. $postId);
+        redirect('SiteController/viewPost/' . $postId);
     }
 
     /**
      * Search user's using their favorite genres from the search page
      */
-    public function searchUser() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function search()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $userId = $this->session->userdata('userId');
-        $this->session->selectedGenre = $this->input->post('genres');
-        $searchResult = $this->UserManager->searchUsers($userId, $this->session->selectedGenre);
-        $this->session->searchResult = $searchResult;
-        redirect('/SiteController/searchPage');
+        $query = $this->input->get('query');
+        // Search for posts by title or content
+        $posts = $this->PostManager->searchPosts($query);
+        echo json_encode($posts);
+        // Search for users
+        $users = $this->UserManager->searchUsers($query);
+        echo json_encode($users);
+        $data = array(
+            'posts' => $posts,
+            'users' => $users
+        );
 
+        // $this->load->view('search_results', $data);
+        // $userId = $this->session->userdata('userId');
+        // $this->session->selectedGenre = $this->input->post('genres');
+        // $searchResult = $this->UserManager->searchUsers($userId, $this->session->selectedGenre);
+        // $this->session->searchResult = $searchResult;
+        redirect('/SiteController/searchPage');
     }
 
     /**
      * after page refresh by using session stored search result value, displaying search list.
      */
-    public function displaySearch() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function displaySearch()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $emptyResult = '';
         $userId = $this->session->userdata('userId');
         $searchResult = $this->UserManager->searchUsers($userId, $this->session->selectedGenre);
-        if(empty($searchResult[0]) AND empty($searchResult[1]) AND empty($searchResult[2]) AND isset($this->session->selectedGenre)) {
+        if (empty($searchResult[0]) and empty($searchResult[1]) and empty($searchResult[2]) and isset($this->session->selectedGenre)) {
             $emptyResult = 'No Users Found.';
         }
         $this->load->view('user_search', array('usersList' => $searchResult, 'notFound' => $emptyResult));
@@ -398,30 +457,34 @@ class SiteController extends CI_Controller
     /**
      * load selected user's profile wit han option to follow/unfollow
      */
-    public function loadUserProfile() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function loadUserProfile()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $currentUserId = $userId = $this->session->userdata('userId');
         $userId = $this->uri->segment(3);
-        if($this->UserManager->checkIfUserExists($userId) === 'Error') {
+        if ($this->UserManager->checkIfUserExists($userId) === 'Error') {
             redirect('/SiteController/homepage');
         }
         $profileResult = $this->UserManager->getProfileData($userId);
         $postResult = $this->PostManager->retrievePosts($userId);
         $ifFollowingResult = $this->UserManager->findIfFollowing($currentUserId, $userId);
-        $this->load->view('user_profile_page', array('posts' => $postResult,
+        $this->load->view('user_profile_page', array(
+            'posts' => $postResult,
             'profileData' => $profileResult[0],
             'genreData' => $profileResult[1],
-            'isFollowing' => $ifFollowingResult));
+            'isFollowing' => $ifFollowingResult
+        ));
     }
 
 
     /**
      * follow selected user using his user ID.
      */
-    public function followUser() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function followUser()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
@@ -429,14 +492,14 @@ class SiteController extends CI_Controller
         $foundUserId = $this->uri->segment(3);
         $actionResult = $this->UserManager->userActions($userId, $actionType, $foundUserId);
         redirect('/SiteController/homepage');
-
     }
 
     /**
      * unfollow selected user using user ID.
      */
-    public function unfollowUser() {
-        if(!$this->session->userdata('user_logged_in')) {
+    public function unfollowUser()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $userId = $this->session->userdata('userId');
@@ -445,6 +508,4 @@ class SiteController extends CI_Controller
         $actionResult = $this->UserManager->userActions($userId, $actionType, $foundUserId);
         redirect('/SiteController/homepage');
     }
-
-
 }
