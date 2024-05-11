@@ -56,6 +56,8 @@
     <div class="ui form">
         <div class="field">
             <label>Post Content</label>
+            <input type="text" name="title" placeholder="Title" required>
+            <input type="text" name="image" placeholder="Image URL (optional)">
             <textarea spellcheck="false" id="postContent" name="postContent"></textarea>
         </div>
         <div class="submit-button">
@@ -75,8 +77,7 @@
                 <div class="ui segment posts">
                     <div class="postAvatarImage">
                         <p>
-                            <a class="userTitle"
-                               href="<?php echo site_url('/SiteController/viewUserProfile/' . $post->userId) ?>">
+                            <a class="userTitle" href="<?php echo site_url('/SiteController/viewUserProfile/' . $post->userId) ?>">
                                 <img align="top" src="<?php echo $post->avatarUrl; ?>">
                                 <?php if ($post->profileName !== NULL) { ?>
                                     <b style="margin-left: 10px;"><?php echo $post->profileName; ?></b><?php echo ' @' . $post->username; ?>
@@ -90,47 +91,44 @@
                                 Options
                                 <i class="dropdown icon"></i>
                                 <div class="menu">
-                                    <div class="item"><a
-                                                href="<?php echo site_url('/SiteController/editPost/' . $post->postId); ?>">Edit
-                                            Post</a></div>
-                                    <div class="item"><a
-                                                href="<?php echo site_url('/SiteController/deletePost/' . $post->postId); ?>">Delete
-                                            Post</a></div>
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/editPost/' . $post->postId); ?>">Edit Post</a></div>
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/deletePost/' . $post->postId); ?>">Delete Post</a></div>
                                 </div>
                             </div>
-                        </div>
                         <?php } ?>
+                        </div>
                         </p>
                     </div>
                     <br>
-                    <p class="postContent"
-                       style="margin-left: 65px;"><?php
-                        $output = $post->postContent;
+                    <h2 class="postTitle" style="margin-left: 65px;"><?php echo $post->title; ?></h2>
+                    <p class="postContent" style="margin-left: 65px;"><?php
+                                                                        $output = $post->postContent;
 
-                        $regex_images = '~https?://\S+?(?:png|gif|jpe?g)~';
-                        $regex_links = '~(?<!src=\')https?://\S+\b~';
+                                                                        $regex_images = '~https?://\S+?(?:png|gif|jpe?g)~';
+                                                                        $regex_links = '~(?<!src=\')https?://\S+\b~';
 
-                        $output = preg_replace($regex_images, "<br> <img src='\\0'> <br>", $output);
-                        $output = preg_replace($regex_links, "<a href='\\0' target=\"_blank\">\\0</a>", $output);
+                                                                        $output = preg_replace($regex_images, "<br> <img src='\\0'> <br>", $output);
+                                                                        $output = preg_replace($regex_links, "<a href='\\0' target=\"_blank\">\\0</a>", $output);
 
-                        echo $output
-                        ?></p>
-                        <a href="<?php echo site_url('/SiteController/viewPost/'. $post->postId);?>">
-                            View Post
-                        </a>
-                        
-                        <div>
-                        <form method="post" action="<?php echo site_url('SiteController/likePost');?>">
+                                                                        echo $output;
+                                                                        ?></p>
+                    <?php if (!empty($post->image)) : ?>
+                        <img src="<?php echo $post->image; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;">
+                    <?php endif; ?>
+                    <a href="<?php echo site_url('/SiteController/viewPost/' . $post->postId); ?>">View Post</a>
+
+                    <div>
+                        <form method="post" action="<?php echo site_url('SiteController/likePost'); ?>">
                             <div class="like-button">
-                                <input type="hidden" name="postId" value="<?php echo $postId;?>">
+                                <input type="hidden" name="postId" value="<?php echo $post->postId; ?>">
                                 <button type="submit" class="btn ui grey button">Like</button>
                             </div>
                         </form>
-                        </div>
-                        
-                        <div class="like-count">
-                            Likes: <?php echo $post->like_count;?>
-                        </div>
+                    </div>
+
+                    <div class="like-count">
+                        Likes: <?php echo $post->like_count; ?>
+                    </div>
                 </div>
 
             <?php } ?>
@@ -141,6 +139,5 @@
 <script>
     document.title = "Timeline";
     $('.ui.dropdown')
-        .dropdown()
-    ;
+        .dropdown();
 </script>

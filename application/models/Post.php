@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: Suwadith
@@ -6,12 +7,17 @@
  * Time: 11:11 AM
  */
 
-class Post extends CI_Model{
+class Post extends CI_Model
+{
 
     public $postId;
     public $postContent;
     public $dateTime;
     public $userId;
+    public $title;
+    public $content;
+    public $image;
+    public $user_id;
 
     /**
      * @param $postContent
@@ -20,11 +26,15 @@ class Post extends CI_Model{
      *
      * Method to create a post.
      */
-    public function createPost($postContent, $dateTime, $userId) {
-        $this->postContent = $postContent;
-        $this->dateTime = $dateTime;
-        $this->userId = $userId;
+    public function createPost($postContent, $dateTime, $userId)
+    {
+        $this->title = $postContent['title'];
+        $this->content = $postContent['content'];
+        $this->image = $postContent['image'];
+        $this->user_id = $postContent['user_id'];
+        $this->dateTime = date("Y-m-d H:i:s");
     }
+
 
     /**
      * @return mixed
@@ -44,20 +54,23 @@ class Post extends CI_Model{
     //     return $output;
     // }
 
-    public function getPostContent($postId) {
+    public function getPostContent($postId)
+    {
         $query = $this->db->get_where('post', array('PostId' => $postId));
         return $query->row_array();
     }
 
 
-    public function getRawPostContent() {
+    public function getRawPostContent()
+    {
         return $this->postContent;
     }
 
     /**
      * @return mixed
      */
-    public function getPostId() {
+    public function getPostId()
+    {
         return $this->postId;
     }
 
@@ -72,10 +85,8 @@ class Post extends CI_Model{
 
 
 
-    public function updatePostData($postContent) {
+    public function updatePostData($postContent)
+    {
         $this->postContent = $postContent;
     }
-
-
-
 }

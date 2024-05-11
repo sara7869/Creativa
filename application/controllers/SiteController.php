@@ -45,12 +45,16 @@ class SiteController extends CI_Controller
      * Loads the home page of a logged in user.
      */
     public function homepage() {
+        // ini_set('display_errors', 1);
+        // ini_set('display_startup_errors', 1);
+        // error_reporting(E_ALL);
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $this->load->view('header');
         $this->load->view('navigation_bar');
         $this->displayProfileData();
+        // echo "Welcome";
         $this->load->view('footer');
     }
 
@@ -120,7 +124,6 @@ class SiteController extends CI_Controller
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-//        $userId = $this->session->userdata('userId');
         $this->load->view('header');
         $this->load->view('navigation_bar');
         $this->load->view('user_contacts');
@@ -195,14 +198,19 @@ class SiteController extends CI_Controller
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[1000]',
-            array('max_length' => 'Maximum character length of a post is 1000.'));
-
+    
+        $this->form_validation->set_rules('title', 'Title', 'required|max_length[255]');
+        $this->form_validation->set_rules('content', 'Content', 'required|max_length[1000]');
+        $this->form_validation->set_rules('image', 'Image URL', 'valid_url|max_length[255]');
+    
         if ($this->form_validation->run() == FALSE) {
             $this->homepage();
-
         } else {
-            $postData = $this->input->post('postContent');
+            $postData = array(
+                'title' => $this->input->post('title'),
+                'content' => $this->input->post('content'),
+                'image' => $this->input->post('image')
+            );
             $userId = $this->session->userdata('userId');
             $createPostResult = $this->PostManager->createPost($postData, $userId);
             redirect('/SiteController/homepage');
@@ -216,18 +224,23 @@ class SiteController extends CI_Controller
         if(!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
-        $this->form_validation->set_rules('postContent', 'Post Content', 'required|max_length[1000]',
-            array('max_length' => 'Maximum character length of a post is 1000.'));
-
-        if ($this->form_validation->run() == FALSE) {
-            $this->homepage();
-
-        } else {
-            $postData = $this->input->post('postContent');
+    
+        // $this->form_validation->set_rules('title', 'Title', 'required|max_length[255]');
+        // $this->form_validation->set_rules('content', 'Content', 'required|max_length[1000]');
+        // $this->form_validation->set_rules('image', 'Image URL', 'valid_url|max_length[255]');
+    
+        // if ($this->form_validation->run() == FALSE) {
+        //     $this->homepage();
+        // } else {
+            $postData = array(
+                'title' => $this->input->post('title'),
+                'postContent' => $this->input->post('postContent'),
+                'image' => $this->input->post('image')
+            );
             $userId = $this->session->userdata('userId');
             $createPostResult = $this->PostManager->createPost($postData, $userId);
             redirect('/SiteController/timelinePage');
-        }
+        // }
     }
 
     public function viewPost($postId) {

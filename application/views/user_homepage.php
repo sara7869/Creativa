@@ -44,6 +44,10 @@
     .maincontent {
         min-width: 800px;
     }
+
+    .userTitle {
+        color: inherit;
+    }
 </style>
 
 <div class="ui raised very padded text container segment center aligned">
@@ -105,8 +109,7 @@
 <?php if ($posts !== null) { ?>
     <div class="ui raised very padded text container segment">
         <ul>
-            <?php foreach ($posts as $obj) { ?>
-
+            <?php foreach ($posts as $post) { echo "Hello" ?>
                 <div class="ui segment posts">
                     <div class="postAvatarImage">
                         <p><img align="top" src="<?php echo $profileData[0]->getAvatarUrl(); ?>">
@@ -120,9 +123,9 @@
                                 Options
                                 <i class="dropdown icon"></i>
                                 <div class="menu">
-                                    <div class="item"><a href="<?php echo site_url('/SiteController/editPost/' . $obj->getPostId()); ?>">Edit
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/editPost/' . $post->getPostId()); ?>">Edit
                                             Post</a></div>
-                                    <div class="item"><a href="<?php echo site_url('/SiteController/deletePost/' . $obj->getPostId()); ?>">Delete
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/deletePost/' . $post->getPostId()); ?>">Delete
                                             Post</a></div>
                                 </div>
                             </div>
@@ -130,8 +133,16 @@
                         </p>
                     </div>
                     <br>
-                    <p class="postContent" style="margin-left: 65px;"><?php echo $obj->getPostContent(); ?></p>
-                    <?php $this->load->view('like_button', ['postId' => $obj->getPostId(), 'isLiked' => $isLiked]); ?>
+                    <h2 class="postTitle" style="margin-left: 65px;"><?php echo $post->title; ?></h2>
+                    <p class="postContent" style="margin-left: 65px;"><?php
+                                                                        $output = $post->postContent; ?>
+
+                    <p class="postContent" style="margin-left: 65px;"><?php echo $post->postContent; ?></p>
+                    <?php $this->load->view('like_button', ['postId' => $post->getPostId(), 'isLiked' => $isLiked]); ?>
+                    <?php if (!empty($post->image)) : ?>
+                        <img src="<?php echo $post->image; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;">
+                    <?php endif; ?>
+                    <a href="<?php echo site_url('/SiteController/viewPost/' . $post->postId); ?>">View Post</a>
 
                 </div>
 

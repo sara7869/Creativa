@@ -24,11 +24,11 @@ class PostManager extends CI_Model {
      *
      * Creating a post using both the content and user ID.
      */
-    public function createPost($postContent, $userId) {
-        $dateTime = date("Y-m-d H:i:s");
-        $newPost = new Post();
-        $newPost->createPost($postContent, $dateTime, $userId);
-        $this->db->insert('post', $newPost);
+    public function createPost($postData, $userId) {
+        $postData['userId'] = $userId;
+        $postData['dateTime'] = date("Y-m-d H:i:s");
+        $this->db->insert('post', $postData);
+        return $this->db->insert_id();
     }
 
     /**
@@ -38,11 +38,12 @@ class PostManager extends CI_Model {
      * retrieving selected user's post.
      */
     public function retrievePosts($userId) {
+        $this->db->select('postId, title, postContent, image, userId, dateTime');
+        $this->db->from('post');
         $this->db->where('userId', $userId);
         $this->db->order_by('dateTime', 'desc');
-        $result = $this->db->get('post');
-
-        if($result->num_rows() > 0) {
+        $result = $this->db->get();
+        if ($result->num_rows() > 0) {
             return $result->custom_result_object('Post');
         }
     }
@@ -130,7 +131,7 @@ class PostManager extends CI_Model {
 
         $userPosts = array();
         $otherPosts = array();
-        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count');
+        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title');
         $this->db->from('post');
         $this->db->join('user', 'user.userId = post.userId');
         $this->db->where('user.userId', $userId);
@@ -142,7 +143,7 @@ class PostManager extends CI_Model {
         }
 
 
-        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count');
+        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title');
         $this->db->from('post');
         $this->db->join('connection', 'post.userId = connection.followingUserId');
         $this->db->join('user', 'connection.followingUserId = user.userId');
