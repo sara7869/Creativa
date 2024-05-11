@@ -95,13 +95,35 @@
     <?php echo form_open(site_url('/SiteController/createHomePost')); ?>
     <div class="ui form">
         <div class="field">
+            <label>Title</label>
+            <input type="text" name="title" placeholder="Title" required>
+        </div>
+        <div class="field">
+            <label>Image URL (optional)</label>
+            <input type="text" name="image" placeholder="Image URL (optional)">
+        </div>
+        <div class="field">
             <label>Post Content</label>
             <textarea spellcheck="false" id="postContent" name="postContent"></textarea>
+        </div>
+        <div class="field">
+            <label>Categories</label>
+            <input type="text" name="category" placeholder="Categories (comma-separated)">
+        </div>
+        <div class="field">
+            <label>Tags</label>
+            <input type="text" name="tags" placeholder="Tags (comma-separated)">
+        </div>
+        <div class="field">
+            <label>Status</label>
+            <select name="status">
+                <option value="Draft">Draft</option>
+                <option value="Published">Published</option>
+            </select>
         </div>
         <div class="submit-button">
             <button class="ui grey button" type="submit">Post</button>
         </div>
-
     </div>
     <?php echo form_close(); ?>
 </div>

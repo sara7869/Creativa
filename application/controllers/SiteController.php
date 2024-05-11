@@ -234,19 +234,26 @@ class SiteController extends CI_Controller
         }
 
         $this->form_validation->set_rules('title', 'Title', 'required|max_length[255]');
-        $this->form_validation->set_rules('content', 'Content', 'required|max_length[1000]');
+        $this->form_validation->set_rules('postContent', 'Content', 'required|max_length[1000]');
         $this->form_validation->set_rules('image', 'Image URL', 'valid_url|max_length[255]');
+        $this->form_validation->set_rules('category', 'Category', 'required');
+        $this->form_validation->set_rules('tags', 'Tags', 'required');
+        $this->form_validation->set_rules('status', 'Status', 'required|in_list[Draft,Published]');
 
         if ($this->form_validation->run() == FALSE) {
             $this->homepage();
         } else {
             $postData = array(
                 'title' => $this->input->post('title'),
-                'content' => $this->input->post('content'),
-                'image' => $this->input->post('image')
+                'postContent' => $this->input->post('postContent'),
+                'image' => $this->input->post('image'),
+                'category' => $this->input->post('category'),
+                'tags' => $this->input->post('tags'),
+                'status' => $this->input->post('status')
             );
             $userId = $this->session->userdata('userId');
             $createPostResult = $this->PostManager->createPost($postData, $userId);
+            echo json_encode($postData); 
             redirect('/SiteController/homepage');
         }
     }
@@ -260,22 +267,17 @@ class SiteController extends CI_Controller
             redirect('/UserController/login');
         }
 
-        // $this->form_validation->set_rules('title', 'Title', 'required|max_length[255]');
-        // $this->form_validation->set_rules('content', 'Content', 'required|max_length[1000]');
-        // $this->form_validation->set_rules('image', 'Image URL', 'valid_url|max_length[255]');
-
-        // if ($this->form_validation->run() == FALSE) {
-        //     $this->homepage();
-        // } else {
         $postData = array(
             'title' => $this->input->post('title'),
             'postContent' => $this->input->post('postContent'),
-            'image' => $this->input->post('image')
+            'image' => $this->input->post('image'),
+            'category' => $this->input->post('category'),
+            'tags' => $this->input->post('tags'),
+            'status' => $this->input->post('status')
         );
         $userId = $this->session->userdata('userId');
         $createPostResult = $this->PostManager->createPost($postData, $userId);
         redirect('/SiteController/timelinePage');
-        // }
     }
 
     public function viewPost($postId)

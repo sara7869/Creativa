@@ -27,7 +27,20 @@ class PostManager extends CI_Model {
     public function createPost($postData, $userId) {
         $postData['userId'] = $userId;
         $postData['dateTime'] = date("Y-m-d H:i:s");
+
+        $postData['title'] = $postData['title'];
+        // $postData['postContent'] = $postData['content'];
+        $postData['image'] = $postData['image'];
+        $postData['category'] = $postData['category']; // Assuming 'category' is an array of categories
+        $postData['tags'] = $postData['tags']; // Assuming 'tags' is a comma-separated list of tags
+        $postData['status'] = $postData['status']; // 'Draft' or 'Published'
+        // $postData['draft_status'] = $postData['draft_status']; // true if the post is a draft, false otherwise
+        echo json_encode($postData);
+
         $this->db->insert('post', $postData);
+        // echo json_encode($postData);
+
+
         return $this->db->insert_id();
     }
 
@@ -298,10 +311,15 @@ class PostManager extends CI_Model {
     //     }
     // }
     public function searchPosts($query) {
+        $this->db->select('postId, title, postContent, category, tags, status, draft_status');
         $this->db->like('title', $query);
-        $this->db->or_like('postContent', $query);
-        $query = $this->db->get('post');
-        return $query->result();
+        $this->db->like('postContent', $query);
+        $this->db->like('category', $query);
+        $this->db->like('tags', $query);
+        $this->db->like('status', $query);
+        $this->db->like('draft_status', $query);
+        $query = $this->db->get();
+        return $query->result_array();
     }
 
     public function getCommentsForPost($postId) {
