@@ -416,28 +416,18 @@ class SiteController extends CI_Controller
             redirect('/UserController/login');
         }
         $query = $this->input->get('query');
-        // Search for posts by title or content
         $posts = $this->PostManager->searchPosts($query);
-        echo json_encode($posts);
-        // Search for users
         $users = $this->UserManager->searchUsers($query);
-        echo json_encode($users);
         $data = array(
             'posts' => $posts,
             'users' => $users
         );
-
-        // $this->load->view('search_results', $data);
-        // $userId = $this->session->userdata('userId');
-        // $this->session->selectedGenre = $this->input->post('genres');
-        // $searchResult = $this->UserManager->searchUsers($userId, $this->session->selectedGenre);
-        // $this->session->searchResult = $searchResult;
-        redirect('/SiteController/searchPage');
+        $this->load->view('header');
+        $this->load->view('navigation_bar');
+        $this->load->view('user_search', $data); // Display the search results on the same page
+        $this->load->view('footer');
     }
 
-    /**
-     * after page refresh by using session stored search result value, displaying search list.
-     */
     public function displaySearch()
     {
         if (!$this->session->userdata('user_logged_in')) {
@@ -445,12 +435,12 @@ class SiteController extends CI_Controller
         }
         $emptyResult = '';
         $userId = $this->session->userdata('userId');
-        $searchResult = $this->UserManager->searchUsers($userId, $this->session->selectedGenre);
-        if (empty($searchResult[0]) and empty($searchResult[1]) and empty($searchResult[2]) and isset($this->session->selectedGenre)) {
-            $emptyResult = 'No Users Found.';
-        }
-        $this->load->view('user_search', array('usersList' => $searchResult, 'notFound' => $emptyResult));
-        $this->session->selectedGenre = null;
+
+        $data = array(
+            'posts' => [],
+            'users' => []
+        );
+        $this->load->view('user_search', $data);
     }
 
 
