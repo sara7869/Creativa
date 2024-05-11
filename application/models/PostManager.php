@@ -313,12 +313,12 @@ class PostManager extends CI_Model {
     public function searchPosts($query) {
         $this->db->select('postId, title, postContent, category, tags, status, draft_status');
         $this->db->like('title', $query);
-        $this->db->like('postContent', $query);
-        $this->db->like('category', $query);
-        $this->db->like('tags', $query);
-        $this->db->like('status', $query);
-        $this->db->like('draft_status', $query);
-        $query = $this->db->get();
+        $this->db->or_like('postContent', $query);
+        $this->db->or_like('category', $query);
+        $this->db->or_like('tags', $query);
+        $this->db->or_like('status', $query);
+        $this->db->or_like('draft_status', $query);
+        $query = $this->db->get('post');
         return $query->result_array();
     }
 

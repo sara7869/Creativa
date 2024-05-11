@@ -47,12 +47,11 @@
         <h2>Posts</h2>
         <?php foreach ($posts as $post) {?>
             <div class="post">
-                <h3><a href="<?php echo site_url('/SiteController/viewPost/'.$post->postId);?>"><?php echo $post->title;?></a></h3>
-                <p><?php echo $post->content;?></p>
-                <!-- Like button -->
-                <a href="<?php echo site_url('/SiteController/likePost/'.$post->postId);?>">Like</a></a>
-                <!-- Comment button -->
-                <a href="<?php echo site_url('/SiteController/add_comment/'.$post->postId);?>">Comment</a></a>
+                <h3><a href="<?php echo site_url('/SiteController/viewPost/'.$post['postId']);?>"><?php echo $post['title'];?></a></h3>
+                <!-- <img src="<?php echo $post['image']; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;"> -->
+                <p><?php echo $post['postContent'];?></p>
+                <a href="<?php echo site_url('/SiteController/likePost/'.$post['postId']);?>">Like</a></a>
+                <a href="<?php echo site_url('/SiteController/add_comment/'.$post['postId']);?>">Comment</a></a>
             </div>
         <?php }?>
         <?php if (count($posts) == 0) {?>
