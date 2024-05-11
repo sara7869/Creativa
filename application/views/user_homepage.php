@@ -109,7 +109,7 @@
 <?php if ($posts !== null) { ?>
     <div class="ui raised very padded text container segment">
         <ul>
-            <?php foreach ($posts as $post) { echo "Hello" ?>
+            <?php foreach ($posts as $post) { ?>
                 <div class="ui segment posts">
                     <div class="postAvatarImage">
                         <p><img align="top" src="<?php echo $profileData[0]->getAvatarUrl(); ?>">

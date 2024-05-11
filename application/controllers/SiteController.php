@@ -249,12 +249,14 @@ class SiteController extends CI_Controller
         $comments = $this->PostManager->getCommentsForPost($postId);
         $likes = $this->PostManager->getLikesForPost($postId);
 
+        $authorData = $this->UserManager->getProfileData($post['userId']);
         $data = array(
             'postId' => $postId,
             'post' => $post,
             'posts' => $viewPostResult,
             'comments' => $comments,
-            'likes' => $likes
+            'likes' => $likes,
+            'authorData' => $authorData
         );
 
         $this->load->view('header');
