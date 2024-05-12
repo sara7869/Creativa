@@ -1,5 +1,5 @@
 *********
-Overview
+Creativa Overview
 *********
 
 Creativa - Advanced Server Side Module Coursework
@@ -37,6 +37,8 @@ Functionalties
 10. Ability to search by post content, categories, tags and author names.
 
 11. Activity Feed functionality.
+
+12. Users can react to posts with happy face, sad face, fire emoji, laughing emoji, angry emoji, etc.
 
 ***********
 Asset Paths
