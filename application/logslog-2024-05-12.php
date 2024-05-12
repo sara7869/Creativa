@@ -13248,3 +13248,4793 @@ INFO - 2024-05-12 20:30:43 --> File loaded: C:\xampp\htdocs\repo\application\vie
 INFO - 2024-05-12 20:30:43 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
 INFO - 2024-05-12 20:30:43 --> Final output sent to browser
 DEBUG - 2024-05-12 20:30:43 --> Total execution time: 0.0364
+INFO - 2024-05-12 20:34:51 --> Config Class Initialized
+INFO - 2024-05-12 20:34:51 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:34:51 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:34:51 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:34:51 --> URI Class Initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:34:51 --> Router Class Initialized
+INFO - 2024-05-12 20:34:51 --> Output Class Initialized
+INFO - 2024-05-12 20:34:51 --> Security Class Initialized
+DEBUG - 2024-05-12 20:34:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:34:51 --> Input Class Initialized
+INFO - 2024-05-12 20:34:51 --> Language Class Initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:34:51 --> Loader Class Initialized
+INFO - 2024-05-12 20:34:51 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:34:51 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:34:51 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:34:51 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:34:51 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "User" initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "Post" initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "Connection" initialized
+INFO - 2024-05-12 20:34:51 --> Controller Class Initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:34:51 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:34:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:34:51 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:34:51 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:34:51 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:34:51 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:34:51 --> Final output sent to browser
+DEBUG - 2024-05-12 20:34:51 --> Total execution time: 0.0496
+INFO - 2024-05-12 20:35:21 --> Config Class Initialized
+INFO - 2024-05-12 20:35:21 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:35:21 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:35:21 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:35:21 --> URI Class Initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:35:21 --> Router Class Initialized
+INFO - 2024-05-12 20:35:21 --> Output Class Initialized
+INFO - 2024-05-12 20:35:21 --> Security Class Initialized
+DEBUG - 2024-05-12 20:35:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:35:21 --> Input Class Initialized
+INFO - 2024-05-12 20:35:21 --> Language Class Initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:35:21 --> Loader Class Initialized
+INFO - 2024-05-12 20:35:21 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:35:21 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:35:21 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:35:21 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:35:21 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "User" initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "Post" initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "Connection" initialized
+INFO - 2024-05-12 20:35:21 --> Controller Class Initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:21 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:21 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:35:21 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:35:21 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:35:21 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:35:21 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:35:21 --> Final output sent to browser
+DEBUG - 2024-05-12 20:35:21 --> Total execution time: 0.0400
+INFO - 2024-05-12 20:35:27 --> Config Class Initialized
+INFO - 2024-05-12 20:35:27 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:35:27 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:35:27 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:35:27 --> URI Class Initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:35:27 --> Router Class Initialized
+INFO - 2024-05-12 20:35:27 --> Output Class Initialized
+INFO - 2024-05-12 20:35:27 --> Security Class Initialized
+DEBUG - 2024-05-12 20:35:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:35:27 --> Input Class Initialized
+INFO - 2024-05-12 20:35:27 --> Language Class Initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:35:27 --> Loader Class Initialized
+INFO - 2024-05-12 20:35:27 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:35:27 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:35:27 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:35:27 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:35:27 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "User" initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "Post" initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "Connection" initialized
+INFO - 2024-05-12 20:35:27 --> Controller Class Initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:27 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:35:27 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:35:27 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:35:27 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:35:27 --> Final output sent to browser
+DEBUG - 2024-05-12 20:35:27 --> Total execution time: 0.0570
+INFO - 2024-05-12 20:35:38 --> Config Class Initialized
+INFO - 2024-05-12 20:35:38 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:35:38 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:35:38 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:35:38 --> URI Class Initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:35:38 --> Router Class Initialized
+INFO - 2024-05-12 20:35:38 --> Output Class Initialized
+INFO - 2024-05-12 20:35:38 --> Security Class Initialized
+DEBUG - 2024-05-12 20:35:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:35:38 --> Input Class Initialized
+INFO - 2024-05-12 20:35:38 --> Language Class Initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:35:38 --> Loader Class Initialized
+INFO - 2024-05-12 20:35:38 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:35:38 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:35:38 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:35:38 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:35:38 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "User" initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "Post" initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "Connection" initialized
+INFO - 2024-05-12 20:35:38 --> Controller Class Initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:38 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:35:38 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:35:38 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:35:38 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:35:38 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:35:38 --> Final output sent to browser
+DEBUG - 2024-05-12 20:35:38 --> Total execution time: 0.0367
+INFO - 2024-05-12 20:35:57 --> Config Class Initialized
+INFO - 2024-05-12 20:35:57 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:35:57 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:35:57 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:35:57 --> URI Class Initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:35:57 --> Router Class Initialized
+INFO - 2024-05-12 20:35:57 --> Output Class Initialized
+INFO - 2024-05-12 20:35:57 --> Security Class Initialized
+DEBUG - 2024-05-12 20:35:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:35:57 --> Input Class Initialized
+INFO - 2024-05-12 20:35:57 --> Language Class Initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:35:57 --> Loader Class Initialized
+INFO - 2024-05-12 20:35:57 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:35:57 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:35:57 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:35:57 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:35:57 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "User" initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "Post" initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "Connection" initialized
+INFO - 2024-05-12 20:35:57 --> Controller Class Initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:35:57 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:35:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:35:57 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:35:57 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:35:57 --> File loaded: C:\xampp\htdocs\repo\application\views\single_post.php
+INFO - 2024-05-12 20:35:57 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:35:57 --> Final output sent to browser
+DEBUG - 2024-05-12 20:35:57 --> Total execution time: 0.0368
+INFO - 2024-05-12 20:36:02 --> Config Class Initialized
+INFO - 2024-05-12 20:36:02 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:02 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:02 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:02 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:02 --> Router Class Initialized
+INFO - 2024-05-12 20:36:02 --> Output Class Initialized
+INFO - 2024-05-12 20:36:02 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:02 --> Input Class Initialized
+INFO - 2024-05-12 20:36:02 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:02 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:02 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:02 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:02 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:02 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:02 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:02 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:02 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:02 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:02 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:02 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:36:02 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:02 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:02 --> Total execution time: 0.0513
+INFO - 2024-05-12 20:36:04 --> Config Class Initialized
+INFO - 2024-05-12 20:36:04 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:04 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:04 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:04 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:04 --> Router Class Initialized
+INFO - 2024-05-12 20:36:04 --> Output Class Initialized
+INFO - 2024-05-12 20:36:04 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:04 --> Input Class Initialized
+INFO - 2024-05-12 20:36:04 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:04 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:04 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:04 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:04 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:04 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:04 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:04 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:04 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:04 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:04 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:04 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:04 --> File loaded: C:\xampp\htdocs\repo\application\views\single_post.php
+INFO - 2024-05-12 20:36:04 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:04 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:04 --> Total execution time: 0.0568
+INFO - 2024-05-12 20:36:07 --> Config Class Initialized
+INFO - 2024-05-12 20:36:07 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:07 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:07 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:07 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:07 --> Router Class Initialized
+INFO - 2024-05-12 20:36:07 --> Output Class Initialized
+INFO - 2024-05-12 20:36:07 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:07 --> Input Class Initialized
+INFO - 2024-05-12 20:36:07 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:07 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:07 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:07 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:07 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:07 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:07 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:07 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:07 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:07 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:07 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:07 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:07 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:36:07 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:07 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:07 --> Total execution time: 0.0544
+INFO - 2024-05-12 20:36:09 --> Config Class Initialized
+INFO - 2024-05-12 20:36:09 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:09 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:09 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:09 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:09 --> Router Class Initialized
+INFO - 2024-05-12 20:36:09 --> Output Class Initialized
+INFO - 2024-05-12 20:36:09 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:09 --> Input Class Initialized
+INFO - 2024-05-12 20:36:09 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:09 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:09 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:09 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:09 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:09 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:09 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:09 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:09 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:09 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:09 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:36:09 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:09 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:09 --> Total execution time: 0.0616
+INFO - 2024-05-12 20:36:13 --> Config Class Initialized
+INFO - 2024-05-12 20:36:13 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:13 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:13 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:13 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:13 --> Router Class Initialized
+INFO - 2024-05-12 20:36:13 --> Output Class Initialized
+INFO - 2024-05-12 20:36:13 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:13 --> Input Class Initialized
+INFO - 2024-05-12 20:36:13 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:13 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:13 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:13 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:13 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:13 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:13 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:13 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:13 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:13 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:13 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:13 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:13 --> File loaded: C:\xampp\htdocs\repo\application\views\single_post.php
+INFO - 2024-05-12 20:36:13 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:13 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:13 --> Total execution time: 0.0375
+INFO - 2024-05-12 20:36:16 --> Config Class Initialized
+INFO - 2024-05-12 20:36:16 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:16 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:16 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:16 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:16 --> Router Class Initialized
+INFO - 2024-05-12 20:36:16 --> Output Class Initialized
+INFO - 2024-05-12 20:36:16 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:16 --> Input Class Initialized
+INFO - 2024-05-12 20:36:16 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:16 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:16 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:16 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:16 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:16 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:16 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:16 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:16 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:16 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:16 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:36:16 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:16 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:16 --> Total execution time: 0.0405
+INFO - 2024-05-12 20:36:22 --> Config Class Initialized
+INFO - 2024-05-12 20:36:22 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:23 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:23 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:23 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:23 --> Router Class Initialized
+INFO - 2024-05-12 20:36:23 --> Output Class Initialized
+INFO - 2024-05-12 20:36:23 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:23 --> Input Class Initialized
+INFO - 2024-05-12 20:36:23 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:23 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:23 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:23 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:23 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:23 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:23 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:23 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:23 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:23 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:23 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:23 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:36:23 --> File loaded: C:\xampp\htdocs\repo\application\views\user_profile.php
+INFO - 2024-05-12 20:36:23 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:23 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:23 --> Total execution time: 0.0564
+INFO - 2024-05-12 20:36:24 --> Config Class Initialized
+INFO - 2024-05-12 20:36:24 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:24 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:24 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:24 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:24 --> Router Class Initialized
+INFO - 2024-05-12 20:36:24 --> Output Class Initialized
+INFO - 2024-05-12 20:36:24 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:24 --> Input Class Initialized
+INFO - 2024-05-12 20:36:24 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:24 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:24 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:24 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:24 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:24 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:24 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:24 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Comment" initialized
+INFO - 2024-05-12 20:36:24 --> Language file loaded: language/english/form_validation_lang.php
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:36:24 --> Config Class Initialized
+INFO - 2024-05-12 20:36:24 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:24 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:24 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:24 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:24 --> Router Class Initialized
+INFO - 2024-05-12 20:36:24 --> Output Class Initialized
+INFO - 2024-05-12 20:36:24 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:24 --> Input Class Initialized
+INFO - 2024-05-12 20:36:24 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:24 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:24 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:24 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:24 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:24 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:24 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:24 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:24 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:24 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:24 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:36:24 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:24 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:24 --> Total execution time: 0.0411
+INFO - 2024-05-12 20:36:36 --> Config Class Initialized
+INFO - 2024-05-12 20:36:36 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:36 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:36 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:36 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:36 --> Router Class Initialized
+INFO - 2024-05-12 20:36:36 --> Output Class Initialized
+INFO - 2024-05-12 20:36:36 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:36 --> Input Class Initialized
+INFO - 2024-05-12 20:36:36 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:36 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:36 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:36 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:36 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:36 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:36 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:36 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:36 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:36 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:36 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:36 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:36:36 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:36 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:36 --> Total execution time: 0.0599
+INFO - 2024-05-12 20:36:37 --> Config Class Initialized
+INFO - 2024-05-12 20:36:37 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:37 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:37 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:37 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:37 --> Router Class Initialized
+INFO - 2024-05-12 20:36:37 --> Output Class Initialized
+INFO - 2024-05-12 20:36:37 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:37 --> Input Class Initialized
+INFO - 2024-05-12 20:36:37 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:37 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:37 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:37 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:37 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:37 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:37 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:37 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:37 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:37 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:37 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:37 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:37 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:36:37 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:37 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:37 --> Total execution time: 0.0557
+INFO - 2024-05-12 20:36:40 --> Config Class Initialized
+INFO - 2024-05-12 20:36:40 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:40 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:40 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:40 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:40 --> Router Class Initialized
+INFO - 2024-05-12 20:36:40 --> Output Class Initialized
+INFO - 2024-05-12 20:36:40 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:40 --> Input Class Initialized
+INFO - 2024-05-12 20:36:40 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:40 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:40 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:40 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:40 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:40 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:40 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:40 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:40 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:40 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:40 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property User::$currentUserId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:40 --> Severity: 8192 --> Creation of dynamic property User::$followingUserId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:36:40 --> File loaded: C:\xampp\htdocs\repo\application\views\user_connections.php
+INFO - 2024-05-12 20:36:40 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:40 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:40 --> Total execution time: 0.0484
+INFO - 2024-05-12 20:36:42 --> Config Class Initialized
+INFO - 2024-05-12 20:36:42 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:42 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:42 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:42 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:42 --> Router Class Initialized
+INFO - 2024-05-12 20:36:42 --> Output Class Initialized
+INFO - 2024-05-12 20:36:42 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:42 --> Input Class Initialized
+INFO - 2024-05-12 20:36:42 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:42 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:42 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:42 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:42 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:42 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:42 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:42 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:42 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:42 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:42 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:42 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:36:42 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:42 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:42 --> Total execution time: 0.0520
+INFO - 2024-05-12 20:36:43 --> Config Class Initialized
+INFO - 2024-05-12 20:36:43 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:43 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:43 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:43 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:43 --> Router Class Initialized
+INFO - 2024-05-12 20:36:43 --> Output Class Initialized
+INFO - 2024-05-12 20:36:43 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:43 --> Input Class Initialized
+INFO - 2024-05-12 20:36:43 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:43 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:43 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:43 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:43 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:43 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:43 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:43 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:43 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:43 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:43 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:43 --> File loaded: C:\xampp\htdocs\repo\application\views\user_search.php
+INFO - 2024-05-12 20:36:43 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:43 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:43 --> Total execution time: 0.0453
+INFO - 2024-05-12 20:36:44 --> Config Class Initialized
+INFO - 2024-05-12 20:36:44 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:44 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:44 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:44 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:44 --> Router Class Initialized
+INFO - 2024-05-12 20:36:44 --> Output Class Initialized
+INFO - 2024-05-12 20:36:44 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:44 --> Input Class Initialized
+INFO - 2024-05-12 20:36:44 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:44 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:44 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:44 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:44 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:44 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:44 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:44 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:44 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:44 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:36:44 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:36:44 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:44 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:44 --> Total execution time: 0.0532
+INFO - 2024-05-12 20:36:45 --> Config Class Initialized
+INFO - 2024-05-12 20:36:45 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:36:45 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:36:45 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:36:45 --> URI Class Initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:36:45 --> Router Class Initialized
+INFO - 2024-05-12 20:36:45 --> Output Class Initialized
+INFO - 2024-05-12 20:36:45 --> Security Class Initialized
+DEBUG - 2024-05-12 20:36:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:36:45 --> Input Class Initialized
+INFO - 2024-05-12 20:36:45 --> Language Class Initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:36:45 --> Loader Class Initialized
+INFO - 2024-05-12 20:36:45 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:36:45 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:36:45 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:36:45 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:36:45 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "User" initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "Post" initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "Connection" initialized
+INFO - 2024-05-12 20:36:45 --> Controller Class Initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:36:45 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:36:45 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:36:45 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:36:45 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:36:45 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:36:45 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:36:45 --> Final output sent to browser
+DEBUG - 2024-05-12 20:36:45 --> Total execution time: 0.0583
+INFO - 2024-05-12 20:42:00 --> Config Class Initialized
+INFO - 2024-05-12 20:42:00 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:42:00 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:42:00 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:42:00 --> URI Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:42:00 --> Router Class Initialized
+INFO - 2024-05-12 20:42:00 --> Output Class Initialized
+INFO - 2024-05-12 20:42:00 --> Security Class Initialized
+DEBUG - 2024-05-12 20:42:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:42:00 --> Input Class Initialized
+INFO - 2024-05-12 20:42:00 --> Language Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:42:00 --> Loader Class Initialized
+INFO - 2024-05-12 20:42:00 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:42:00 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:42:00 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:42:00 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:42:00 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "User" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Post" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Connection" initialized
+INFO - 2024-05-12 20:42:00 --> Controller Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:42:00 --> Final output sent to browser
+DEBUG - 2024-05-12 20:42:00 --> Total execution time: 0.0384
+INFO - 2024-05-12 20:42:00 --> Config Class Initialized
+INFO - 2024-05-12 20:42:00 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:42:00 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:42:00 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:42:00 --> URI Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:42:00 --> Router Class Initialized
+INFO - 2024-05-12 20:42:00 --> Output Class Initialized
+INFO - 2024-05-12 20:42:00 --> Security Class Initialized
+DEBUG - 2024-05-12 20:42:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:42:00 --> Input Class Initialized
+INFO - 2024-05-12 20:42:00 --> Language Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:42:00 --> Loader Class Initialized
+INFO - 2024-05-12 20:42:00 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:42:00 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:42:00 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:42:00 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:42:00 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "User" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Post" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Connection" initialized
+INFO - 2024-05-12 20:42:00 --> Controller Class Initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:42:00 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:42:00 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:42:00 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:42:00 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:42:00 --> Final output sent to browser
+DEBUG - 2024-05-12 20:42:00 --> Total execution time: 0.0437
+INFO - 2024-05-12 20:43:56 --> Config Class Initialized
+INFO - 2024-05-12 20:43:56 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:43:56 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:43:56 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:43:56 --> URI Class Initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:43:56 --> Router Class Initialized
+INFO - 2024-05-12 20:43:56 --> Output Class Initialized
+INFO - 2024-05-12 20:43:56 --> Security Class Initialized
+DEBUG - 2024-05-12 20:43:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:43:56 --> Input Class Initialized
+INFO - 2024-05-12 20:43:56 --> Language Class Initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:43:56 --> Loader Class Initialized
+INFO - 2024-05-12 20:43:56 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:43:56 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:43:56 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:43:56 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:43:56 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "User" initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "Post" initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "Connection" initialized
+INFO - 2024-05-12 20:43:56 --> Controller Class Initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:43:56 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:43:56 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:43:56 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:43:56 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$avatarUrl C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$profileName C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$username C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$like_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$avatarUrl C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$profileName C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$username C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$like_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 252
+INFO - 2024-05-12 20:43:56 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:43:56 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:43:56 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:43:56 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:43:56 --> Final output sent to browser
+DEBUG - 2024-05-12 20:43:56 --> Total execution time: 0.0413
+INFO - 2024-05-12 20:48:11 --> Config Class Initialized
+INFO - 2024-05-12 20:48:11 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:48:11 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:48:11 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:48:11 --> URI Class Initialized
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:48:11 --> Router Class Initialized
+INFO - 2024-05-12 20:48:11 --> Output Class Initialized
+INFO - 2024-05-12 20:48:11 --> Security Class Initialized
+DEBUG - 2024-05-12 20:48:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:48:11 --> Input Class Initialized
+INFO - 2024-05-12 20:48:11 --> Language Class Initialized
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:48:11 --> Loader Class Initialized
+INFO - 2024-05-12 20:48:11 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:48:11 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:48:11 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:48:11 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:48:12 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:48:12 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "User" initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "Post" initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "Connection" initialized
+INFO - 2024-05-12 20:48:12 --> Controller Class Initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:12 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:48:12 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:48:12 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:12 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:12 --> Severity: error --> Exception: Unclosed '{' on line 131 C:\xampp\htdocs\repo\application\views\user_homepage.php 273
+INFO - 2024-05-12 20:48:16 --> Config Class Initialized
+INFO - 2024-05-12 20:48:16 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:48:16 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:48:16 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:48:16 --> URI Class Initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:48:16 --> Router Class Initialized
+INFO - 2024-05-12 20:48:16 --> Output Class Initialized
+INFO - 2024-05-12 20:48:16 --> Security Class Initialized
+DEBUG - 2024-05-12 20:48:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:48:16 --> Input Class Initialized
+INFO - 2024-05-12 20:48:16 --> Language Class Initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:48:16 --> Loader Class Initialized
+INFO - 2024-05-12 20:48:16 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:48:16 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:48:16 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:48:16 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:48:16 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "User" initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "Post" initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "Connection" initialized
+INFO - 2024-05-12 20:48:16 --> Controller Class Initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:16 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:48:16 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:48:16 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:16 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:16 --> Severity: error --> Exception: Unclosed '{' on line 131 C:\xampp\htdocs\repo\application\views\user_homepage.php 273
+INFO - 2024-05-12 20:48:36 --> Config Class Initialized
+INFO - 2024-05-12 20:48:36 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:48:36 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:48:36 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:48:36 --> URI Class Initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:48:36 --> Router Class Initialized
+INFO - 2024-05-12 20:48:36 --> Output Class Initialized
+INFO - 2024-05-12 20:48:36 --> Security Class Initialized
+DEBUG - 2024-05-12 20:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:48:36 --> Input Class Initialized
+INFO - 2024-05-12 20:48:36 --> Language Class Initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:48:36 --> Loader Class Initialized
+INFO - 2024-05-12 20:48:36 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:48:36 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:48:36 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:48:36 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:48:36 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "User" initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "Post" initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "Connection" initialized
+INFO - 2024-05-12 20:48:36 --> Controller Class Initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:36 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:36 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:36 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:48:36 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:48:36 --> Final output sent to browser
+DEBUG - 2024-05-12 20:48:36 --> Total execution time: 0.0436
+INFO - 2024-05-12 20:48:41 --> Config Class Initialized
+INFO - 2024-05-12 20:48:41 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:48:41 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:48:41 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:48:41 --> URI Class Initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:48:41 --> Router Class Initialized
+INFO - 2024-05-12 20:48:41 --> Output Class Initialized
+INFO - 2024-05-12 20:48:41 --> Security Class Initialized
+DEBUG - 2024-05-12 20:48:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:48:41 --> Input Class Initialized
+INFO - 2024-05-12 20:48:41 --> Language Class Initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:48:41 --> Loader Class Initialized
+INFO - 2024-05-12 20:48:41 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:48:41 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:48:41 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:48:41 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:48:41 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "User" initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "Post" initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "Connection" initialized
+INFO - 2024-05-12 20:48:41 --> Controller Class Initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:41 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:48:41 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:48:41 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:48:41 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:48:41 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:48:41 --> Final output sent to browser
+DEBUG - 2024-05-12 20:48:41 --> Total execution time: 0.0389
+INFO - 2024-05-12 20:48:59 --> Config Class Initialized
+INFO - 2024-05-12 20:48:59 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:48:59 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:48:59 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:48:59 --> URI Class Initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:48:59 --> Router Class Initialized
+INFO - 2024-05-12 20:48:59 --> Output Class Initialized
+INFO - 2024-05-12 20:48:59 --> Security Class Initialized
+DEBUG - 2024-05-12 20:48:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:48:59 --> Input Class Initialized
+INFO - 2024-05-12 20:48:59 --> Language Class Initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:48:59 --> Loader Class Initialized
+INFO - 2024-05-12 20:48:59 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:48:59 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:48:59 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:48:59 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:48:59 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "User" initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "Post" initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "Connection" initialized
+INFO - 2024-05-12 20:48:59 --> Controller Class Initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:48:59 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:59 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:48:59 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:48:59 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:48:59 --> Final output sent to browser
+DEBUG - 2024-05-12 20:48:59 --> Total execution time: 0.0601
+INFO - 2024-05-12 20:49:00 --> Config Class Initialized
+INFO - 2024-05-12 20:49:00 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:49:00 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:49:00 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:49:00 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:49:00 --> URI Class Initialized
+ERROR - 2024-05-12 20:49:00 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:49:00 --> Router Class Initialized
+INFO - 2024-05-12 20:49:00 --> Output Class Initialized
+INFO - 2024-05-12 20:49:00 --> Security Class Initialized
+DEBUG - 2024-05-12 20:49:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:49:00 --> Input Class Initialized
+INFO - 2024-05-12 20:49:00 --> Language Class Initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:49:01 --> Loader Class Initialized
+INFO - 2024-05-12 20:49:01 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:49:01 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:49:01 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:49:01 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:49:01 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "User" initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "Post" initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "Connection" initialized
+INFO - 2024-05-12 20:49:01 --> Controller Class Initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:01 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:49:01 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:49:01 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property User::$currentUserId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:49:01 --> Severity: 8192 --> Creation of dynamic property User::$followingUserId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:49:01 --> File loaded: C:\xampp\htdocs\repo\application\views\user_connections.php
+INFO - 2024-05-12 20:49:01 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:49:01 --> Final output sent to browser
+DEBUG - 2024-05-12 20:49:01 --> Total execution time: 0.0550
+INFO - 2024-05-12 20:49:02 --> Config Class Initialized
+INFO - 2024-05-12 20:49:02 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:49:02 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:49:02 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:49:02 --> URI Class Initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:49:02 --> Router Class Initialized
+INFO - 2024-05-12 20:49:02 --> Output Class Initialized
+INFO - 2024-05-12 20:49:02 --> Security Class Initialized
+DEBUG - 2024-05-12 20:49:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:49:02 --> Input Class Initialized
+INFO - 2024-05-12 20:49:02 --> Language Class Initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:49:02 --> Loader Class Initialized
+INFO - 2024-05-12 20:49:02 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:49:02 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:49:02 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:49:02 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:49:02 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "User" initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "Post" initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "Connection" initialized
+INFO - 2024-05-12 20:49:02 --> Controller Class Initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:49:02 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:49:02 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:49:02 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:49:02 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:49:02 --> File loaded: C:\xampp\htdocs\repo\application\views\user_search.php
+INFO - 2024-05-12 20:49:02 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:49:02 --> Final output sent to browser
+DEBUG - 2024-05-12 20:49:02 --> Total execution time: 0.0349
+INFO - 2024-05-12 20:50:43 --> Config Class Initialized
+INFO - 2024-05-12 20:50:43 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:50:43 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:50:43 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:50:43 --> URI Class Initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:50:43 --> Router Class Initialized
+INFO - 2024-05-12 20:50:43 --> Output Class Initialized
+INFO - 2024-05-12 20:50:43 --> Security Class Initialized
+DEBUG - 2024-05-12 20:50:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:50:43 --> Input Class Initialized
+INFO - 2024-05-12 20:50:43 --> Language Class Initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:50:43 --> Loader Class Initialized
+INFO - 2024-05-12 20:50:43 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:50:43 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:50:43 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:50:43 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:50:43 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "User" initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "Post" initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "Connection" initialized
+INFO - 2024-05-12 20:50:43 --> Controller Class Initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:43 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:50:43 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:50:43 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:50:43 --> File loaded: C:\xampp\htdocs\repo\application\views\user_search.php
+INFO - 2024-05-12 20:50:43 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:50:43 --> Final output sent to browser
+DEBUG - 2024-05-12 20:50:43 --> Total execution time: 0.0478
+INFO - 2024-05-12 20:50:51 --> Config Class Initialized
+INFO - 2024-05-12 20:50:51 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:50:51 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:50:51 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:50:51 --> URI Class Initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:50:51 --> Router Class Initialized
+INFO - 2024-05-12 20:50:51 --> Output Class Initialized
+INFO - 2024-05-12 20:50:51 --> Security Class Initialized
+DEBUG - 2024-05-12 20:50:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:50:51 --> Input Class Initialized
+INFO - 2024-05-12 20:50:51 --> Language Class Initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:50:51 --> Loader Class Initialized
+INFO - 2024-05-12 20:50:51 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:50:51 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:50:51 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:50:51 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:50:51 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "User" initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "Post" initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "Connection" initialized
+INFO - 2024-05-12 20:50:51 --> Controller Class Initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:51 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:50:51 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:50:51 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:50:51 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:50:51 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:50:51 --> Final output sent to browser
+DEBUG - 2024-05-12 20:50:51 --> Total execution time: 0.0487
+INFO - 2024-05-12 20:50:57 --> Config Class Initialized
+INFO - 2024-05-12 20:50:57 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:50:57 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:50:57 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:50:57 --> URI Class Initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:50:57 --> Router Class Initialized
+INFO - 2024-05-12 20:50:57 --> Output Class Initialized
+INFO - 2024-05-12 20:50:57 --> Security Class Initialized
+DEBUG - 2024-05-12 20:50:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:50:57 --> Input Class Initialized
+INFO - 2024-05-12 20:50:57 --> Language Class Initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:50:57 --> Loader Class Initialized
+INFO - 2024-05-12 20:50:57 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:50:57 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:50:57 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:50:57 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:50:57 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "User" initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "Post" initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "Connection" initialized
+INFO - 2024-05-12 20:50:57 --> Controller Class Initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:50:57 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:50:57 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:50:57 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:50:57 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:50:57 --> Final output sent to browser
+DEBUG - 2024-05-12 20:50:57 --> Total execution time: 0.0418
+INFO - 2024-05-12 20:51:01 --> Config Class Initialized
+INFO - 2024-05-12 20:51:01 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:51:01 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:51:01 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:51:01 --> URI Class Initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:51:01 --> Router Class Initialized
+INFO - 2024-05-12 20:51:01 --> Output Class Initialized
+INFO - 2024-05-12 20:51:01 --> Security Class Initialized
+DEBUG - 2024-05-12 20:51:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:51:01 --> Input Class Initialized
+INFO - 2024-05-12 20:51:01 --> Language Class Initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:51:01 --> Loader Class Initialized
+INFO - 2024-05-12 20:51:01 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:51:01 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:51:01 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:51:01 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:51:01 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "User" initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "Post" initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "Connection" initialized
+INFO - 2024-05-12 20:51:01 --> Controller Class Initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:01 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:01 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:51:01 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:51:01 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:51:01 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:51:01 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:51:01 --> Final output sent to browser
+DEBUG - 2024-05-12 20:51:01 --> Total execution time: 0.0367
+INFO - 2024-05-12 20:51:05 --> Config Class Initialized
+INFO - 2024-05-12 20:51:05 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:51:05 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:51:05 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:51:05 --> URI Class Initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:51:05 --> Router Class Initialized
+INFO - 2024-05-12 20:51:05 --> Output Class Initialized
+INFO - 2024-05-12 20:51:05 --> Security Class Initialized
+DEBUG - 2024-05-12 20:51:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:51:05 --> Input Class Initialized
+INFO - 2024-05-12 20:51:05 --> Language Class Initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:51:05 --> Loader Class Initialized
+INFO - 2024-05-12 20:51:05 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:51:05 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:51:05 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:51:05 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:51:05 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "User" initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "Post" initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "Connection" initialized
+INFO - 2024-05-12 20:51:05 --> Controller Class Initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:05 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:51:05 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:51:05 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:51:05 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:51:05 --> Final output sent to browser
+DEBUG - 2024-05-12 20:51:05 --> Total execution time: 0.0398
+INFO - 2024-05-12 20:51:40 --> Config Class Initialized
+INFO - 2024-05-12 20:51:40 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:51:40 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:51:40 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:51:40 --> URI Class Initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:51:40 --> Router Class Initialized
+INFO - 2024-05-12 20:51:40 --> Output Class Initialized
+INFO - 2024-05-12 20:51:40 --> Security Class Initialized
+DEBUG - 2024-05-12 20:51:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:51:40 --> Input Class Initialized
+INFO - 2024-05-12 20:51:40 --> Language Class Initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:51:40 --> Loader Class Initialized
+INFO - 2024-05-12 20:51:40 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:51:40 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:51:40 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:51:40 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:51:40 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "User" initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "Post" initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "Connection" initialized
+INFO - 2024-05-12 20:51:40 --> Controller Class Initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:51:40 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:51:40 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:51:40 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:51:40 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:51:40 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:51:40 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:51:40 --> Final output sent to browser
+DEBUG - 2024-05-12 20:51:40 --> Total execution time: 0.0567
+INFO - 2024-05-12 20:52:38 --> Config Class Initialized
+INFO - 2024-05-12 20:52:38 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:38 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:38 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:38 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:38 --> Router Class Initialized
+INFO - 2024-05-12 20:52:38 --> Output Class Initialized
+INFO - 2024-05-12 20:52:38 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:38 --> Input Class Initialized
+INFO - 2024-05-12 20:52:38 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:38 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:38 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:38 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:38 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:38 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:38 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:38 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:38 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:38 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:38 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:38 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:52:38 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:52:38 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:38 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:38 --> Total execution time: 0.0598
+INFO - 2024-05-12 20:52:41 --> Config Class Initialized
+INFO - 2024-05-12 20:52:41 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:41 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:41 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:41 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:41 --> Router Class Initialized
+INFO - 2024-05-12 20:52:41 --> Output Class Initialized
+INFO - 2024-05-12 20:52:41 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:41 --> Input Class Initialized
+INFO - 2024-05-12 20:52:41 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:41 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:41 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:41 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:41 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:41 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:41 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:41 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:41 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:41 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:41 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:41 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:52:41 --> File loaded: C:\xampp\htdocs\repo\application\views\user_contacts.php
+INFO - 2024-05-12 20:52:41 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:41 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:41 --> Total execution time: 0.0341
+INFO - 2024-05-12 20:52:42 --> Config Class Initialized
+INFO - 2024-05-12 20:52:42 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:42 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:42 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:42 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:42 --> Router Class Initialized
+INFO - 2024-05-12 20:52:42 --> Output Class Initialized
+INFO - 2024-05-12 20:52:42 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:42 --> Input Class Initialized
+INFO - 2024-05-12 20:52:42 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:42 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:42 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:42 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:42 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:42 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:42 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:42 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property User::$currentUserId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property User::$followingUserId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\user_connections.php
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:42 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:42 --> Total execution time: 0.0358
+INFO - 2024-05-12 20:52:42 --> Config Class Initialized
+INFO - 2024-05-12 20:52:42 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:42 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:42 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:42 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:42 --> Router Class Initialized
+INFO - 2024-05-12 20:52:42 --> Output Class Initialized
+INFO - 2024-05-12 20:52:42 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:42 --> Input Class Initialized
+INFO - 2024-05-12 20:52:42 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:42 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:42 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:42 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:42 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:42 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:42 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:42 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:42 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:42 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\user_search.php
+INFO - 2024-05-12 20:52:42 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:42 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:42 --> Total execution time: 0.0334
+INFO - 2024-05-12 20:52:43 --> Config Class Initialized
+INFO - 2024-05-12 20:52:43 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:43 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:43 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:43 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:43 --> Router Class Initialized
+INFO - 2024-05-12 20:52:43 --> Output Class Initialized
+INFO - 2024-05-12 20:52:43 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:43 --> Input Class Initialized
+INFO - 2024-05-12 20:52:43 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:43 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:43 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:43 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:43 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:43 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:43 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:43 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:43 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:43 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:43 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:52:43 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:43 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:43 --> Total execution time: 0.0520
+INFO - 2024-05-12 20:52:46 --> Config Class Initialized
+INFO - 2024-05-12 20:52:46 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:46 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:46 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:46 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:46 --> Router Class Initialized
+INFO - 2024-05-12 20:52:46 --> Output Class Initialized
+INFO - 2024-05-12 20:52:46 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:46 --> Input Class Initialized
+INFO - 2024-05-12 20:52:46 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:46 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:46 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:46 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:46 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:46 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:46 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:46 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:46 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:46 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:46 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:46 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:52:46 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:52:46 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:46 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:46 --> Total execution time: 0.0498
+INFO - 2024-05-12 20:52:48 --> Config Class Initialized
+INFO - 2024-05-12 20:52:48 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:48 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:48 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:48 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:48 --> Router Class Initialized
+INFO - 2024-05-12 20:52:48 --> Output Class Initialized
+INFO - 2024-05-12 20:52:48 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:48 --> Input Class Initialized
+INFO - 2024-05-12 20:52:48 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:48 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:48 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:48 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:48 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:48 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:48 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:48 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated C:\xampp\htdocs\repo\system\libraries\Session\Session_driver.php 142
+INFO - 2024-05-12 20:52:48 --> Config Class Initialized
+INFO - 2024-05-12 20:52:48 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:48 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:48 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:48 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:48 --> Router Class Initialized
+INFO - 2024-05-12 20:52:48 --> Output Class Initialized
+INFO - 2024-05-12 20:52:48 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:48 --> Input Class Initialized
+INFO - 2024-05-12 20:52:48 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:48 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:48 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:48 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:48 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:48 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:48 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:48 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property UserController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:48 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:48 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:48 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:48 --> File loaded: C:\xampp\htdocs\repo\application\views\user_login.php
+INFO - 2024-05-12 20:52:48 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:48 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:48 --> Total execution time: 0.0453
+INFO - 2024-05-12 20:52:51 --> Config Class Initialized
+INFO - 2024-05-12 20:52:51 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:51 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:51 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:51 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:51 --> Router Class Initialized
+INFO - 2024-05-12 20:52:51 --> Output Class Initialized
+INFO - 2024-05-12 20:52:51 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:51 --> Input Class Initialized
+INFO - 2024-05-12 20:52:51 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:51 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:51 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:51 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:51 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:51 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:51 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:51 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property UserController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "UserManager" initialized
+INFO - 2024-05-12 20:52:51 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-05-12 20:52:51 --> Config Class Initialized
+INFO - 2024-05-12 20:52:51 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:51 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:51 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:51 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:51 --> Router Class Initialized
+INFO - 2024-05-12 20:52:51 --> Output Class Initialized
+INFO - 2024-05-12 20:52:51 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:51 --> Input Class Initialized
+INFO - 2024-05-12 20:52:51 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:51 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:51 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:51 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:51 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:51 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:51 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:51 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:51 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:51 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 164
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined variable $isLiked C:\xampp\htdocs\repo\application\views\user_homepage.php 227
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\like_button.php
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$happy_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$surprised_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$sad_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$angry_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$laughing_count C:\xampp\htdocs\repo\system\core\Model.php 73
+ERROR - 2024-05-12 20:52:51 --> Severity: Warning --> Undefined property: SiteController::$fire_count C:\xampp\htdocs\repo\system\core\Model.php 73
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\user_homepage.php
+INFO - 2024-05-12 20:52:51 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:51 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:51 --> Total execution time: 0.0614
+INFO - 2024-05-12 20:52:53 --> Config Class Initialized
+INFO - 2024-05-12 20:52:53 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:52:53 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:52:53 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:52:53 --> URI Class Initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:52:53 --> Router Class Initialized
+INFO - 2024-05-12 20:52:53 --> Output Class Initialized
+INFO - 2024-05-12 20:52:53 --> Security Class Initialized
+DEBUG - 2024-05-12 20:52:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:52:53 --> Input Class Initialized
+INFO - 2024-05-12 20:52:53 --> Language Class Initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:52:53 --> Loader Class Initialized
+INFO - 2024-05-12 20:52:53 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:52:53 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:52:53 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:52:53 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:52:53 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "User" initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "Post" initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "Connection" initialized
+INFO - 2024-05-12 20:52:53 --> Controller Class Initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:52:53 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:52:53 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:52:53 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:52:53 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:52:53 --> File loaded: C:\xampp\htdocs\repo\application\views\user_profile.php
+INFO - 2024-05-12 20:52:53 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:52:53 --> Final output sent to browser
+DEBUG - 2024-05-12 20:52:53 --> Total execution time: 0.0535
+INFO - 2024-05-12 20:53:15 --> Config Class Initialized
+INFO - 2024-05-12 20:53:15 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:53:15 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:53:15 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:53:15 --> URI Class Initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:53:15 --> Router Class Initialized
+INFO - 2024-05-12 20:53:15 --> Output Class Initialized
+INFO - 2024-05-12 20:53:15 --> Security Class Initialized
+DEBUG - 2024-05-12 20:53:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:53:15 --> Input Class Initialized
+INFO - 2024-05-12 20:53:15 --> Language Class Initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:53:15 --> Loader Class Initialized
+INFO - 2024-05-12 20:53:15 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:53:15 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:53:15 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:53:15 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:53:15 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "User" initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "Post" initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "Connection" initialized
+INFO - 2024-05-12 20:53:15 --> Controller Class Initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:15 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:53:15 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:53:15 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:53:15 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:53:15 --> File loaded: C:\xampp\htdocs\repo\application\views\user_profile.php
+INFO - 2024-05-12 20:53:15 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:53:15 --> Final output sent to browser
+DEBUG - 2024-05-12 20:53:15 --> Total execution time: 0.0562
+INFO - 2024-05-12 20:53:43 --> Config Class Initialized
+INFO - 2024-05-12 20:53:43 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:53:43 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:53:43 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:53:43 --> URI Class Initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:53:43 --> Router Class Initialized
+INFO - 2024-05-12 20:53:43 --> Output Class Initialized
+INFO - 2024-05-12 20:53:43 --> Security Class Initialized
+DEBUG - 2024-05-12 20:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:53:43 --> Input Class Initialized
+INFO - 2024-05-12 20:53:43 --> Language Class Initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:53:43 --> Loader Class Initialized
+INFO - 2024-05-12 20:53:43 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:53:43 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:53:43 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:53:43 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:53:43 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "User" initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "Post" initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "Connection" initialized
+INFO - 2024-05-12 20:53:43 --> Controller Class Initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:43 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:53:43 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:53:43 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_id is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property User::$secret_question_answer is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+ERROR - 2024-05-12 20:53:43 --> Severity: 8192 --> Creation of dynamic property Genre::$genreId is deprecated C:\xampp\htdocs\repo\system\database\drivers\mysqli\mysqli_result.php 229
+INFO - 2024-05-12 20:53:43 --> File loaded: C:\xampp\htdocs\repo\application\views\user_profile.php
+INFO - 2024-05-12 20:53:43 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:53:43 --> Final output sent to browser
+DEBUG - 2024-05-12 20:53:43 --> Total execution time: 0.0355
+INFO - 2024-05-12 20:53:47 --> Config Class Initialized
+INFO - 2024-05-12 20:53:47 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:53:47 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:53:47 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:53:47 --> URI Class Initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:53:47 --> Router Class Initialized
+INFO - 2024-05-12 20:53:47 --> Output Class Initialized
+INFO - 2024-05-12 20:53:47 --> Security Class Initialized
+DEBUG - 2024-05-12 20:53:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:53:47 --> Input Class Initialized
+INFO - 2024-05-12 20:53:47 --> Language Class Initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:53:47 --> Loader Class Initialized
+INFO - 2024-05-12 20:53:47 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:53:47 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:53:47 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:53:47 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:53:47 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "User" initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "Post" initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "Connection" initialized
+INFO - 2024-05-12 20:53:47 --> Controller Class Initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:53:47 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:53:47 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:53:47 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:53:47 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:53:47 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:53:47 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:53:47 --> Final output sent to browser
+DEBUG - 2024-05-12 20:53:47 --> Total execution time: 0.0472
+INFO - 2024-05-12 20:54:00 --> Config Class Initialized
+INFO - 2024-05-12 20:54:00 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:54:00 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:54:00 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:54:00 --> URI Class Initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:54:00 --> Router Class Initialized
+INFO - 2024-05-12 20:54:00 --> Output Class Initialized
+INFO - 2024-05-12 20:54:00 --> Security Class Initialized
+DEBUG - 2024-05-12 20:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:54:00 --> Input Class Initialized
+INFO - 2024-05-12 20:54:00 --> Language Class Initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:54:00 --> Loader Class Initialized
+INFO - 2024-05-12 20:54:00 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:54:00 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:54:00 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:54:00 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:54:00 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "User" initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "Post" initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "Connection" initialized
+INFO - 2024-05-12 20:54:00 --> Controller Class Initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:00 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:00 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:54:00 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:54:00 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:54:00 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:54:00 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:54:00 --> Final output sent to browser
+DEBUG - 2024-05-12 20:54:00 --> Total execution time: 0.0521
+INFO - 2024-05-12 20:54:04 --> Config Class Initialized
+INFO - 2024-05-12 20:54:04 --> Hooks Class Initialized
+DEBUG - 2024-05-12 20:54:04 --> UTF-8 Support Enabled
+INFO - 2024-05-12 20:54:04 --> Utf8 Class Initialized
+ERROR - 2024-05-12 20:54:04 --> Severity: 8192 --> Creation of dynamic property CI_URI::$config is deprecated C:\xampp\htdocs\repo\system\core\URI.php 101
+INFO - 2024-05-12 20:54:04 --> URI Class Initialized
+ERROR - 2024-05-12 20:54:04 --> Severity: 8192 --> Creation of dynamic property CI_Router::$uri is deprecated C:\xampp\htdocs\repo\system\core\Router.php 127
+INFO - 2024-05-12 20:54:04 --> Router Class Initialized
+INFO - 2024-05-12 20:54:05 --> Output Class Initialized
+INFO - 2024-05-12 20:54:05 --> Security Class Initialized
+DEBUG - 2024-05-12 20:54:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-05-12 20:54:05 --> Input Class Initialized
+INFO - 2024-05-12 20:54:05 --> Language Class Initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$config is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$log is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$uri is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$router is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$output is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$security is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$input is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$lang is deprecated C:\xampp\htdocs\repo\system\core\Controller.php 82
+INFO - 2024-05-12 20:54:05 --> Loader Class Initialized
+INFO - 2024-05-12 20:54:05 --> Helper loaded: url_helper
+INFO - 2024-05-12 20:54:05 --> Helper loaded: form_helper
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 129
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 279
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 151
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 207
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 296
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice C:\xampp\htdocs\repo\system\libraries\Session\drivers\Session_database_driver.php 334
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 396
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated C:\xampp\htdocs\repo\system\database\DB_driver.php 371
+INFO - 2024-05-12 20:54:05 --> Database Driver Class Initialized
+INFO - 2024-05-12 20:54:05 --> Session: Class initialized using 'database' driver.
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+INFO - 2024-05-12 20:54:05 --> Form Validation Class Initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 1283
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "User" initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "Post" initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "Genre" initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "Connection" initialized
+INFO - 2024-05-12 20:54:05 --> Controller Class Initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "UserManager" initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "PostManager" initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property SiteController::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 358
+INFO - 2024-05-12 20:54:05 --> Model "Comment" initialized
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$load is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$benchmark is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$hooks is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$config is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$log is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$utf8 is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$uri is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$exceptions is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$router is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$output is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$security is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$input is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$lang is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$db is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$session is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$form_validation is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$User is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Post is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Genre is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Connection is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$UserManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$PostManager is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+ERROR - 2024-05-12 20:54:05 --> Severity: 8192 --> Creation of dynamic property CI_Loader::$Comment is deprecated C:\xampp\htdocs\repo\system\core\Loader.php 931
+INFO - 2024-05-12 20:54:05 --> File loaded: C:\xampp\htdocs\repo\application\views\header.php
+INFO - 2024-05-12 20:54:05 --> File loaded: C:\xampp\htdocs\repo\application\views\navigation_bar.php
+INFO - 2024-05-12 20:54:05 --> File loaded: C:\xampp\htdocs\repo\application\views\user_timeline.php
+INFO - 2024-05-12 20:54:05 --> File loaded: C:\xampp\htdocs\repo\application\views\footer.php
+INFO - 2024-05-12 20:54:05 --> Final output sent to browser
+DEBUG - 2024-05-12 20:54:05 --> Total execution time: 0.0488
