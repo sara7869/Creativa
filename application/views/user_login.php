@@ -1,6 +1,7 @@
 <style type="text/css">
     body {
-        background-color: #DADADA;
+        background-image: url('https://images.unsplash.com/photo-1629375286699-8faeaa9aab59?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
     }
 
     body > .grid {
@@ -21,8 +22,8 @@
 </style>
 
 <div class="ui middle aligned center aligned grid">
-    <div class="column">
-        <h2 class="ui teal image header">
+    <div class="column" style="background-color: white; border-radius: 0.25rem; padding-top: 3rem; padding-bottom: 3rem;">
+        <h2 class="ui image header">
             <div class="content">
                 Log-in to your account
             </div>
@@ -52,7 +53,7 @@
                         <input type="password" name="password" placeholder="Password" required>
                     </div>
                 </div>
-                <button class="ui fluid large teal submit button" type="submit" value="Submit">
+                <button class="ui fluid large submit button" type="submit" value="Submit" style="background-color: black; color:white;">
                     Submit
                 </button>
             </div>
@@ -61,6 +62,9 @@
 
         <div class="ui message">
             New to us? <a href="<?php echo site_url('/UserController/registration'); ?>">Sign Up</a>
+        </div>
+        <div class="ui message">
+            Forgot your Password? <a href="<?php echo site_url('/UserController/forgotPassword'); ?>">Reset Password</a>
         </div>
     </div>
 </div>

@@ -21,10 +21,13 @@ class User extends CI_Model {
      *
      * Method to set important user data on registration on to the user object.
      */
-    public function createUser($username, $password, $userEmail) {
+    public function createUser($username, $password, $userEmail, $secretQuestionId, $secretQuestionAnswer) {
         $this->username = $username;
         $this->password = $password;
         $this->userEmail = $userEmail;
+        $this->secret_question_id = $secretQuestionId;
+        $this->secret_question_answer = $secretQuestionAnswer;
+
     }
 
 

@@ -41,19 +41,6 @@ class Post extends CI_Model
      *
      * Method to display images and urls in proper formats using regex
      */
-    // public function getPostContent() {
-
-    //     $output = $this->postContent;
-
-    //     $regex_images = '~https?://\S+?(?:png|gif|jpe?g)~';
-    //     $regex_links = '~(?<!src=\')https?://\S+\b~';
-
-    //     $output = preg_replace($regex_images, "<br> <img src='\\0'> <br>", $output);
-    //     $output = preg_replace($regex_links, "<a href='\\0' target=\"_blank\">\\0</a>", $output);
-
-    //     return $output;
-    // }
-
     public function getPostContent($postId)
     {
         $query = $this->db->get_where('post', array('PostId' => $postId));
@@ -81,9 +68,6 @@ class Post extends CI_Model
     {
         return $this->userId;
     }
-
-
-
 
     public function updatePostData($postContent)
     {

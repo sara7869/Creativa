@@ -213,6 +213,7 @@ class PostManager extends CI_Model {
         }
         // Check if the user has already liked the post
         $isLiked = $this->checkIfUserLikedPost($postId, $userId);
+        echo $isLiked;
         if ($isLiked) {
             // User has already liked the post, so unlike it
             $result =$this->unlikePost($postId, $userId);

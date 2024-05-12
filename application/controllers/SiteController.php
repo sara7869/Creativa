@@ -365,11 +365,13 @@ class SiteController extends CI_Controller
 
     public function likePost($postId)
     {
+        echo "sf";
         if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $postId = $this->input->post('postId');
         $userId = $this->session->userdata('userId');
+        echo $userId;
         $this->PostManager->likePost($postId, $userId);
         // redirect('/SiteController/timelinePage');
     }

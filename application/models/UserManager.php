@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: Suwadith
@@ -13,7 +14,8 @@ class UserManager extends CI_Model
      * UserManager constructor.
      * Loaded the DB connection module to do DB functions.
      */
-    public function __construct() {
+    public function __construct()
+    {
         $this->load->database();
     }
 
@@ -25,11 +27,12 @@ class UserManager extends CI_Model
      *
      * Registering a new user with the above parameters
      */
-    public function registerUser($username, $password, $emailAddress) {
+    public function registerUser($username, $password, $emailAddress, $secretQuestionId, $secretQuestionAnswer)
+    {
 
         $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
         $userData = new User();
-        $userData->createUser($username, $hashedPassword, $emailAddress);
+        $userData->createUser($username, $hashedPassword, $emailAddress, $secretQuestionId, $secretQuestionAnswer);
         $this->db->trans_start();
         $insertUserResult = $this->db->insert('user', $userData);
 
@@ -46,6 +49,16 @@ class UserManager extends CI_Model
         }
     }
 
+    /**
+     * Get secret questions from the database
+     * @return array Secret questions data
+     */
+    public function getSecretQuestions()
+    {
+        $query = $this->db->get('secret_questions');
+        return $query->result();
+    }
+
 
     /***
      * @param $username
@@ -54,7 +67,8 @@ class UserManager extends CI_Model
      *
      * Logging in user. Returning string value to display login errors.
      */
-    public function loginUser($username, $password) {
+    public function loginUser($username, $password)
+    {
         $this->db->where('username', $username);
         $result = $this->db->get('user');
 
@@ -80,7 +94,8 @@ class UserManager extends CI_Model
      *
      * Sending needed parameters to create/update the profile of a new user.
      */
-    public function createProfile($userId, $formProfileName, $formAvatarUrl, $formGenres, $formEmail) {
+    public function createProfile($userId, $formProfileName, $formAvatarUrl, $formGenres, $formEmail)
+    {
         $this->db->where('userId', $userId);
         $userResult = $this->db->get('user');
 
@@ -109,7 +124,8 @@ class UserManager extends CI_Model
      *
      * Gathering User and Genre data of a selected user.
      */
-    public function getProfileData($userId) {
+    public function getProfileData($userId)
+    {
         $this->db->where('userId', $userId);
         $output = array();
         $userResult = $this->db->get('user');
@@ -132,7 +148,8 @@ class UserManager extends CI_Model
      *
      * Deleting user.
      */
-    public function deleteProfileData($userId) {
+    public function deleteProfileData($userId)
+    {
         $this->db->where('userId', $userId);
         $this->db->delete('user');
     }
@@ -144,7 +161,8 @@ class UserManager extends CI_Model
      *
      * populating the search page with proper follow/unfollow buttons by combining all 3 connection, genre & user tables.
      */
-    public function searchUsersWithGenre($userId, $selectedGenre) {
+    public function searchUsersWithGenre($userId, $selectedGenre)
+    {
         $followingList = array();
         $nonFollowingList = array();
         $finalGenreResult = null;
@@ -179,7 +197,6 @@ class UserManager extends CI_Model
 
                         if (in_array($res->getUserId(), $followResultList)) {
                             $followingList[$res->getUserId()] = $res->getUsername();
-
                         } else {
                             $nonFollowingList[$res->getUserId()] = $res->getUsername();
                         }
@@ -190,21 +207,22 @@ class UserManager extends CI_Model
         return array($followingList, $nonFollowingList, $finalGenreResult);
     }
 
-    public function searchUsers($query) {
+    public function searchUsers($query)
+    {
         $this->db->like('username', $query);
         $query = $this->db->get('user');
         return $query->result();
     }
 
 
-    public function userActions($userId, $actionType, $foundUserId) {
+    public function userActions($userId, $actionType, $foundUserId)
+    {
         if ($actionType !== null && $foundUserId !== null) {
 
             if ($actionType === 'followUser') {
                 $followObj = new Connection();
                 $followObj->setUserIds($userId, $foundUserId);
                 $this->db->insert('connection', $followObj);
-
             } elseif ($actionType === 'unfollowUser') {
                 $followObj = new Connection();
                 $this->db->delete('connection', array('currentUserId' => $userId, 'followingUserId' => $foundUserId));
@@ -218,12 +236,13 @@ class UserManager extends CI_Model
      *
      * Method to populate follower list.
      */
-    public function getFollowers($userId) {
+    public function getFollowers($userId)
+    {
         $this->db->select('connection.currentUserId as userId, connection.followingUserId, user.username, user.avatarUrl');
         $this->db->from('user');
         $this->db->join('connection', 'connection.currentUserId = user.userId ');
         $this->db->where('connection.followingUserId', $userId);
-//        $this->db->where_not_in('connection.currentUserId', $userId);
+        //        $this->db->where_not_in('connection.currentUserId', $userId);
         $followerResult = $this->db->get();
 
         if ($followerResult->num_rows() > 0) {
@@ -238,7 +257,8 @@ class UserManager extends CI_Model
      *
      * Method to populate following user list.
      */
-    public function getFollowing($userId) {
+    public function getFollowing($userId)
+    {
         $this->db->select('connection.currentUserId, connection.followingUserId as userId, user.username, user.avatarUrl');
         $this->db->from('user');
         $this->db->join('connection', 'connection.followingUserId = user.userId ');
@@ -258,7 +278,8 @@ class UserManager extends CI_Model
      *
      * Method to find friends (Following & Followed)
      */
-    public function getFriends($userId) {
+    public function getFriends($userId)
+    {
 
         $this->db->select('t1.followingUserId as userId, user.avatarUrl, user.username');
         $this->db->from('connection t1');
@@ -280,7 +301,8 @@ class UserManager extends CI_Model
      *
      * Method to find only the following users.
      */
-    public function findIfFollowing($userId, $profileUserId) {
+    public function findIfFollowing($userId, $profileUserId)
+    {
         $this->db->select('connection.currentUserId, connection.followingUserId');
         $this->db->from('connection');
         $this->db->where("connection.currentUserId = $userId AND connection.followingUserId = $profileUserId");
@@ -299,7 +321,8 @@ class UserManager extends CI_Model
      *
      * Validation to prevent unauthorized URL manipulation
      */
-    public function checkIfUserExists($userId) {
+    public function checkIfUserExists($userId)
+    {
         $this->db->select('userId');
         $this->db->where('userId', $userId);
         $userResult = $this->db->get('user');
@@ -311,5 +334,30 @@ class UserManager extends CI_Model
         }
     }
 
+    /**
+     * Validates the answer to the secret question.
+     * @param string $username The username of the user
+     * @param int $secretQuestionId The ID of the secret question
+     * @param string $secretQuestionAnswer The answer to the secret question
+     * @return bool True if the answer is valid, false otherwise
+     */
+    public function validateSecretQuestionAnswer($username, $secretQuestionId, $secretQuestionAnswer)
+    {
+        $this->db->select('secret_question_id, secret_question_answer');
+        $this->db->where('username', $username);
+        $this->db->where('secret_question_id', $secretQuestionId);
+        $query = $this->db->get('user');
 
+        if ($query->num_rows() > 0) {
+            $row = $query->row();
+            return true;
+        }
+        return false;
+    }
+
+    public function resetUserPassword($username, $formPassword){
+        $hashedPassword = password_hash($formPassword, PASSWORD_BCRYPT);
+        $this->db->where('username', $username);
+        $this->db->update('user', array('password' => $hashedPassword));
+    }
 }

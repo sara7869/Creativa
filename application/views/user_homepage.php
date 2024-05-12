@@ -50,7 +50,7 @@
     }
 </style>
 
-<div class="ui raised very padded text container segment center aligned">
+<div class="ui raised very padded text container segment center aligned"  style="margin-left: 5%; margin-right: 5%;">
     <div class="ui people shape">
         <div class="sides">
             <div class="active side">
@@ -89,7 +89,7 @@
     </div>
 </div>
 
-<div class="ui raised very padded text container segment">
+<div class="ui raised very padded text container segment" style="margin-left: 5%; margin-right: 5%;">
     <?php echo validation_errors(); ?>
 
     <?php echo form_open(site_url('/SiteController/createHomePost')); ?>

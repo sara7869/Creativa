@@ -24,31 +24,26 @@
     <div class="column">
         <h2 class="ui teal image header">
             <div class="content">
-                Registration
+                Reset Password
             </div>
         </h2>
 
-        <?php echo validation_errors(); ?>
+
+        <?php echo validation_errors();
+
+        if ($this->session->has_userdata('errorMsg')) {
+            echo '<br><div class="errorMessage">' . $this->session->errorMsg . '</div><br>';
+            $this->session->unset_userdata('errorMsg');
+        }
+        ?>
 
         <?php echo form_open(site_url('/UserController/registerUser')); ?>
         <div class="ui large form">
             <div class="ui stacked segment">
                 <div class="field">
                     <div class="ui left icon input">
-                        <i class="user icon"></i>
-                        <input type="text" name="username" id="username" placeholder="Username" required>
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="ui left icon input">
-                        <i class="user icon"></i>
-                        <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" required>
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="ui left icon input">
                         <i class="lock icon"></i>
-                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <input type="password" id="password" name="password" placeholder="New Password" required>
                     </div>
                 </div>
                 <div class="field">
@@ -56,17 +51,6 @@
                         <i class="lock icon"></i>
                         <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
                     </div>
-                </div>
-                <div class="field">
-                    <select name="secretQuestionId" required>
-                        <option value="">Select Secret Question</option>
-                        <?php foreach ($secretQuestions as $question) { ?>
-                            <option value="<?php echo $question->question_id; ?>"><?php echo $question->question_text; ?></option>
-                        <?php } ?>
-                    </select>
-                </div>
-                <div class="field">
-                    <input type="text" name="secretQuestionAnswer" placeholder="Answer to Secret Question" required>
                 </div>
                 <button class="ui fluid large teal submit button" type="submit" value="Submit">
                     Submit
@@ -76,11 +60,11 @@
         <?php echo form_close(); ?>
 
         <div class="ui message">
-            Already have an account? <a href="<?php echo site_url('/UserController/login'); ?>">Login</a>
+            New to us? <a href="<?php echo site_url('/UserController/registration'); ?>">Sign Up</a>
         </div>
     </div>
 </div>
 
 <script>
-    document.title = "Registration";
+    document.title = "Reset Password";
 </script>

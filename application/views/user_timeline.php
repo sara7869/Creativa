@@ -46,7 +46,7 @@
     }
 </style>
 
-<div class="ui raised very padded text container segment">
+<div class="ui raised very padded text container segment" style="margin-left: 5%; margin-right: 5%;">
     <?php echo validation_errors(); ?>
 
     <?php echo form_open(site_url('/SiteController/createTimelinePost')); ?>
@@ -93,7 +93,7 @@
         <ul>
             <?php foreach ($timelinePosts as $post) { ?>
 
-                <div class="ui segment posts">
+                <div class="ui raised very padded text container segment posts">
                     <div class="postAvatarImage">
                         <p>
                             <a class="userTitle" href="<?php echo site_url('/SiteController/viewUserProfile/' . $post->userId) ?>">
