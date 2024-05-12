@@ -16,7 +16,7 @@
 
 <style>
     .header {
-        background-color: black;
+        /* background-color: black; */
         color: #DADADA;
         padding: 20px 0;
         text-align: center;
@@ -40,7 +40,7 @@
 </style>
 </head>
 
-<div class="header">
+<div class="header" style="background-color: black;">
     <div class="header-content">
         <p class="site-name">Creativa</p>
     </div>

@@ -44,6 +44,10 @@
     .userTitle {
         color: inherit;
     }
+
+    .reaction {
+        border: none; background-color: transparent; cursor: pointer;
+    }
 </style>
 
 <div class="ui raised very padded text container segment" style="margin-left: 5%; margin-right: 5%;">
@@ -89,11 +93,11 @@
 </div>
 
 <?php if ($timelinePosts !== null) { ?>
-    <div class="ui raised very padded text container segment">
+    <div class="very padded text container segment">
         <ul>
             <?php foreach ($timelinePosts as $post) { ?>
 
-                <div class="ui raised very padded text container segment posts">
+                <div class="ui raised very padded text container segment posts" style="margin-bottom: 1rem;">
                     <div class="postAvatarImage">
                         <p>
                             <a class="userTitle" href="<?php echo site_url('/SiteController/viewUserProfile/' . $post->userId) ?>">
@@ -117,56 +121,56 @@
                         <?php } ?>
                         </div>
                         </p>
-                    </div>
-                    <br>
-                    <h2 class="postTitle" style="margin-left: 65px;"><?php echo $post->title; ?></h2>
-                    <p class="postContent" style="margin-left: 65px;"><?php
-                                                                        $output = $post->postContent;
+                        <h2 class="postTitle" style="margin-left: 65px;"><?php echo $post->title; ?></h2>
+                        <p class="postContent" style="margin-left: 65px;"><?php
+                                                                            $output = $post->postContent;
 
-                                                                        $regex_images = '~https?://\S+?(?:png|gif|jpe?g)~';
-                                                                        $regex_links = '~(?<!src=\')https?://\S+\b~';
+                                                                            $regex_images = '~https?://\S+?(?:png|gif|jpe?g)~';
+                                                                            $regex_links = '~(?<!src=\')https?://\S+\b~';
 
-                                                                        $output = preg_replace($regex_images, "<br> <img src='\\0'> <br>", $output);
-                                                                        $output = preg_replace($regex_links, "<a href='\\0' target=\"_blank\">\\0</a>", $output);
+                                                                            $output = preg_replace($regex_images, "<br> <img src='\\0'> <br>", $output);
+                                                                            $output = preg_replace($regex_links, "<a href='\\0' target=\"_blank\">\\0</a>", $output);
 
-                                                                        echo $output;
-                                                                        ?></p>
-                    <?php if (!empty($post->image)) : ?>
-                        <img src="<?php echo $post->image; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;">
-                    <?php endif; ?>
-                    <a href="<?php echo site_url('/SiteController/viewPost/' . $post->postId); ?>">View Post</a>
+                                                                            echo $output;
+                                                                            ?></p>
+                        <?php if (!empty($post->image)) : ?>
+                            <img src="<?php echo $post->image; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;">
+                        <?php endif; ?>
 
-                    <div>
-                        <form method="post" action="<?php echo site_url('SiteController/likePost'); ?>">
-                            <div class="like-button">
+                        <div style="display: flex; width: 100%; align-items: center; margin-bottom: 1rem;">
+                            <form method="post" action="<?php echo site_url('SiteController/likePost'); ?>" style="margin: 0; margin-right: 1rem;">
+                                <div class="like-button">
+                                    <input type="hidden" name="postId" value="<?php echo $post->postId; ?>">
+                                    <button type="submit" class="ui" style="background-color: transparent; color: #4183C4; border: none;">Like</button>
+                                </div>
+                            </form>
+                            <a href="<?php echo site_url('/SiteController/viewPost/' . $post->postId); ?>">View Post</a>
+                        </div>
+
+                        <div>
+                            <form method="post" action="<?php echo site_url('SiteController/reactToPost'); ?>">
                                 <input type="hidden" name="postId" value="<?php echo $post->postId; ?>">
-                                <button type="submit" class="btn ui grey button">Like</button>
-                            </div>
-                        </form>
-                    </div>
+                                <button class="reaction" type="submit" name="reaction" value="happy">😊</button>
+                                <span style="margin-right: 1rem"><?php echo $post->happy_count; ?></span>
+                                <button class="reaction" type="submit" name="reaction" value="surprised">😲</button>
+                                <span style="margin-right: 1rem"><?php echo $post->surprised_count; ?></span>
+                                <button class="reaction" type="submit" name="reaction" value="sad">😢</button>
+                                <span style="margin-right: 1rem"><?php echo $post->sad_count; ?></span>
+                                <button class="reaction" type="submit" name="reaction" value="angry">😡</button>
+                                <span style="margin-right: 1rem"><?php echo $post->angry_count; ?></span>
+                                <button class="reaction" type="submit" name="reaction" value="laughing">😆</button>
+                                <span style="margin-right: 1rem"><?php echo $post->laughing_count; ?></span>
+                                <button class="reaction" type="submit" name="reaction" value="fire">🔥</button>
+                                <span style="margin-right: 1rem"><?php echo $post->fire_count; ?></span>
+                            </form>
+                        </div>
 
-                    <div>
-                        <form method="post" action="<?php echo site_url('SiteController/reactToPost'); ?>">
-                            <input type="hidden" name="postId" value="<?php echo $post->postId; ?>">
-                            <button type="submit" name="reaction" value="happy">😊</button>
-                            <span><?php echo $post->happy_count; ?></span>
-                            <button type="submit" name="reaction" value="surprised">😲</button>
-                            <span><?php echo $post->surprised_count; ?></span>
-                            <button type="submit" name="reaction" value="sad">😢</button>
-                            <span><?php echo $post->sad_count; ?></span>
-                            <button type="submit" name="reaction" value="angry">😡</button>
-                            <span><?php echo $post->angry_count; ?></span>
-                            <button type="submit" name="reaction" value="laughing">😆</button>
-                            <span><?php echo $post->laughing_count; ?></span>
-                            <button type="submit" name="reaction" value="fire">🔥</button>
-                            <span><?php echo $post->fire_count; ?></span>
-                        </form>
+                        <div class="like-count">
+                            Likes: <?php echo $post->like_count; ?>
+                        </div>
                     </div>
+                    <!-- <br> -->
 
-                    <div class="like-count">
-                        Likes: <?php echo $post->like_count; ?>
-                    </div>
-                    
                 </div>
 
             <?php } ?>
@@ -174,8 +178,8 @@
     </div>
 <?php } ?>
 
-<script>
+<!-- <script>
     document.title = "Timeline";
     $('.ui.dropdown')
         .dropdown();
-</script>
+</script> -->

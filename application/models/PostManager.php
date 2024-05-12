@@ -157,8 +157,6 @@ class PostManager extends CI_Model
         $this->db->where('post.status', 'Published'); 
         $this->db->order_by('post.dateTime', 'desc');
         $result = $this->db->get();
-
-        echo json_encode($result->result());
     
         if ($result->num_rows() > 0) {
             $userPosts = $result->result();

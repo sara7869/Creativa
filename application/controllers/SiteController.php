@@ -255,7 +255,6 @@ class SiteController extends CI_Controller
             );
             $userId = $this->session->userdata('userId');
             $createPostResult = $this->PostManager->createPost($postData, $userId);
-            echo json_encode($postData); 
             redirect('/SiteController/homepage');
         }
     }
@@ -367,13 +366,11 @@ class SiteController extends CI_Controller
 
     public function likePost($postId)
     {
-        echo "sf";
         if (!$this->session->userdata('user_logged_in')) {
             redirect('/UserController/login');
         }
         $postId = $this->input->post('postId');
         $userId = $this->session->userdata('userId');
-        echo $userId;
         $this->PostManager->likePost($postId, $userId);
         // redirect('/SiteController/timelinePage');
     }
@@ -506,31 +503,29 @@ class SiteController extends CI_Controller
     }
 
     public function reactToPost()
-{
-    if (!$this->session->userdata('user_logged_in')) {
-        redirect('/UserController/login');
+    {
+        if (!$this->session->userdata('user_logged_in')) {
+            redirect('/UserController/login');
+        }
+        $postId = $this->input->post('postId');
+        $userId = $this->session->userdata('userId');
+        $reactionType = $this->input->post('reaction');
+
+        $this->PostManager->reactToPost($postId, $userId, $reactionType);
+        redirect('/SiteController/timelinePage');
     }
-    $postId = $this->input->post('postId');
-    $userId = $this->session->userdata('userId');
-    $reactionType = $this->input->post('reaction');
 
-    $this->PostManager->reactToPost($postId, $userId, $reactionType);
+    public function reactToPostHomePage()
+    {
+        if (!$this->session->userdata('user_logged_in')) {
+            redirect('/UserController/login');
+        }
+        $postId = $this->input->post('postId');
+        $userId = $this->session->userdata('userId');
+        $reactionType = $this->input->post('reaction');
 
-    redirect('/SiteController/timelinePage');
-}
+        $this->PostManager->reactToPost($postId, $userId, $reactionType);
 
-public function reactToPostHomePage()
-{
-    if (!$this->session->userdata('user_logged_in')) {
-        redirect('/UserController/login');
+        redirect('/SiteController/homePage');
     }
-    $postId = $this->input->post('postId');
-    $userId = $this->session->userdata('userId');
-    $reactionType = $this->input->post('reaction');
-
-    $this->PostManager->reactToPost($postId, $userId, $reactionType);
-
-    redirect('/SiteController/homePage');
-}
-
 }
