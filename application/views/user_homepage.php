@@ -128,10 +128,74 @@
     <?php echo form_close(); ?>
 </div>
 
-<?php if ($posts !== null) { ?>
-    <div class="ui raised very padded text container segment">
+<?php if (!empty($publishedPosts)) { ?>
+        <div class="ui raised very padded text container segment">
+        <h2>Published</h2>
         <ul>
-            <?php foreach ($posts as $post) { ?>
+        <?php foreach ($publishedPosts as $post) { ?>
+                <div class="ui segment posts">
+                    <div class="postAvatarImage">
+                        <p><img align="top" src="<?php echo $profileData[0]->getAvatarUrl(); ?>">
+                            <?php if ($profileData[0]->getProfileName() !== NULL) { ?>
+                                <b style="margin-left: 10px;"><?php echo $profileData[0]->getProfileName(); ?></b><?php echo ' @' . $profileData[0]->getUsername(); ?>
+                            <?php } else { ?>
+                                <b><?php echo '@' . $profileData[0]->getUsername(); ?></b>
+                            <?php } ?>
+                        <div class="ui text menu" style="margin-top: -75px;">
+                            <div class="ui right dropdown item">
+                                Options
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/editPost/' . $post->getPostId()); ?>">Edit
+                                            Post</a></div>
+                                    <div class="item"><a href="<?php echo site_url('/SiteController/deletePost/' . $post->getPostId()); ?>">Delete
+                                            Post</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                    <br>
+                    <h2 class="postTitle" style="margin-left: 65px;"><?php echo $post->title; ?></h2>
+                    <p class="postContent" style="margin-left: 65px;"><?php
+                                                                        $output = $post->postContent; ?>
+
+                    <p class="postContent" style="margin-left: 65px;"><?php echo $post->postContent; ?></p>
+                    <?php $this->load->view('like_button', ['postId' => $post->getPostId(), 'isLiked' => $isLiked]); ?>
+                    <div>
+                        <form method="post" action="<?php echo site_url('SiteController/reactToPostHomePage'); ?>">
+                            <input type="hidden" name="postId" value="<?php echo $post->postId; ?>">
+                            <button type="submit" name="reaction" value="happy">😊</button>
+                            <span><?php echo $post->happy_count; ?></span>
+                            <button type="submit" name="reaction" value="surprised">😲</button>
+                            <span><?php echo $post->surprised_count; ?></span>
+                            <button type="submit" name="reaction" value="sad">😢</button>
+                            <span><?php echo $post->sad_count; ?></span>
+                            <button type="submit" name="reaction" value="angry">😡</button>
+                            <span><?php echo $post->angry_count; ?></span>
+                            <button type="submit" name="reaction" value="laughing">😆</button>
+                            <span><?php echo $post->laughing_count; ?></span>
+                            <button type="submit" name="reaction" value="fire">🔥</button>
+                            <span><?php echo $post->fire_count; ?></span>
+                        </form>
+                    </div>
+                    <?php if (!empty($post->image)) : ?>
+                        <img src="<?php echo $post->image; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;">
+                    <?php endif; ?>
+                    <a href="<?php echo site_url('/SiteController/viewPost/' . $post->postId); ?>">View Post</a>
+
+                </div>
+
+            <?php } ?>
+        </ul>
+    </div>
+<?php } ?>
+
+<?php if (!empty($draftPosts)) { ?>
+        <div class="ui raised very padded text container segment">
+        <h2>Drafts</h2>
+        <ul>
+        <?php foreach ($draftPosts as $post) { ?>
                 <div class="ui segment posts">
                     <div class="postAvatarImage">
                         <p><img align="top" src="<?php echo $profileData[0]->getAvatarUrl(); ?>">

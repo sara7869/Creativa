@@ -26,10 +26,9 @@ class PostManager extends CI_Model
         $postData['title'] = $postData['title'];
         // $postData['postContent'] = $postData['content'];
         $postData['image'] = $postData['image'];
-        $postData['category'] = $postData['category']; // Assuming 'category' is an array of categories
-        $postData['tags'] = $postData['tags']; // Assuming 'tags' is a comma-separated list of tags
-        $postData['status'] = $postData['status']; // 'Draft' or 'Published'
-        // $postData['draft_status'] = $postData['draft_status']; // true if the post is a draft, false otherwise
+        $postData['category'] = $postData['category'];
+        $postData['tags'] = $postData['tags'];
+        $postData['status'] = $postData['status']; 
         echo json_encode($postData);
 
         $this->db->insert('post', $postData);
@@ -45,11 +44,12 @@ class PostManager extends CI_Model
      *
      * retrieving selected user's post.
      */
-    public function retrievePosts($userId)
+    public function retrievePublishedPosts($userId)
     {
         $this->db->select('postId, title, postContent, image, userId, dateTime');
         $this->db->from('post');
         $this->db->where('userId', $userId);
+        $this->db->where('status', 'Published');
         $this->db->order_by('dateTime', 'desc');
         $result = $this->db->get();
         if ($result->num_rows() > 0) {
@@ -57,21 +57,18 @@ class PostManager extends CI_Model
         }
     }
 
-    /**
-     * @param $postId
-     * @return mixed
-     *
-     * Method to edit selected post.
-     */
-    // public function viewSelectedPost($postId) {
-    //     $this->db->where('postId', $postId);
-    //     $result = $this->db->get('post');
-
-    //          if($result->num_rows() > 0) {
-    //              return $result->custom_result_object('Post');
-    //          }
-    // }
-
+    public function retrieveDraftPosts($userId)
+    {
+        $this->db->select('postId, title, postContent, image, userId, dateTime');
+        $this->db->from('post');
+        $this->db->where('userId', $userId);
+        $this->db->where('status', 'Draft'); // Filter only draft posts
+        $this->db->order_by('dateTime', 'desc');
+        $result = $this->db->get();
+        if ($result->num_rows() > 0) {
+            return $result->custom_result_object('Post');
+        }
+    }
 
     /**
      * @param $postId
@@ -133,7 +130,6 @@ class PostManager extends CI_Model
         return $query->row_array();
     }
 
-
     /**
      * @param $userId
      * @return array|null
@@ -145,51 +141,58 @@ class PostManager extends CI_Model
     {
         $userPosts = array();
         $otherPosts = array();
+        
+        // Query for user's posts
         $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title,
-        SUM(CASE WHEN reactions.reaction_type = "happy" THEN 1 ELSE 0 END) AS happy_count,
-        SUM(CASE WHEN reactions.reaction_type = "surprised" THEN 1 ELSE 0 END) AS surprised_count,
-        SUM(CASE WHEN reactions.reaction_type = "sad" THEN 1 ELSE 0 END) AS sad_count,
-        SUM(CASE WHEN reactions.reaction_type = "angry" THEN 1 ELSE 0 END) AS angry_count,
-        SUM(CASE WHEN reactions.reaction_type = "laughing" THEN 1 ELSE 0 END) AS laughing_count,
-        SUM(CASE WHEN reactions.reaction_type = "fire" THEN 1 ELSE 0 END) AS fire_count');
+            SUM(CASE WHEN reactions.reaction_type = "happy" THEN 1 ELSE 0 END) AS happy_count,
+            SUM(CASE WHEN reactions.reaction_type = "surprised" THEN 1 ELSE 0 END) AS surprised_count,
+            SUM(CASE WHEN reactions.reaction_type = "sad" THEN 1 ELSE 0 END) AS sad_count,
+            SUM(CASE WHEN reactions.reaction_type = "angry" THEN 1 ELSE 0 END) AS angry_count,
+            SUM(CASE WHEN reactions.reaction_type = "laughing" THEN 1 ELSE 0 END) AS laughing_count,
+            SUM(CASE WHEN reactions.reaction_type = "fire" THEN 1 ELSE 0 END) AS fire_count');
         $this->db->from('post');
         $this->db->join('user', 'user.userId = post.userId');
         $this->db->join('reactions', 'reactions.post_id = post.postId', 'left');
         $this->db->where('user.userId', $userId);
+        $this->db->where('post.status', 'Published'); 
         $this->db->order_by('post.dateTime', 'desc');
         $result = $this->db->get();
-        echo "Test";
 
+        echo json_encode($result->result());
+    
         if ($result->num_rows() > 0) {
             $userPosts = $result->result();
         }
-
+    
+        // Query for posts from followed users
         $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title,
-        SUM(CASE WHEN reactions.reaction_type = "happy" THEN 1 ELSE 0 END) AS happy_count,
-        SUM(CASE WHEN reactions.reaction_type = "surprised" THEN 1 ELSE 0 END) AS surprised_count,
-        SUM(CASE WHEN reactions.reaction_type = "sad" THEN 1 ELSE 0 END) AS sad_count,
-        SUM(CASE WHEN reactions.reaction_type = "angry" THEN 1 ELSE 0 END) AS angry_count,
-        SUM(CASE WHEN reactions.reaction_type = "laughing" THEN 1 ELSE 0 END) AS laughing_count,
-        SUM(CASE WHEN reactions.reaction_type = "fire" THEN 1 ELSE 0 END) AS fire_count');        
+            SUM(CASE WHEN reactions.reaction_type = "happy" THEN 1 ELSE 0 END) AS happy_count,
+            SUM(CASE WHEN reactions.reaction_type = "surprised" THEN 1 ELSE 0 END) AS surprised_count,
+            SUM(CASE WHEN reactions.reaction_type = "sad" THEN 1 ELSE 0 END) AS sad_count,
+            SUM(CASE WHEN reactions.reaction_type = "angry" THEN 1 ELSE 0 END) AS angry_count,
+            SUM(CASE WHEN reactions.reaction_type = "laughing" THEN 1 ELSE 0 END) AS laughing_count,
+            SUM(CASE WHEN reactions.reaction_type = "fire" THEN 1 ELSE 0 END) AS fire_count');        
         $this->db->from('post');
         $this->db->join('connection', 'post.userId = connection.followingUserId');
         $this->db->join('user', 'connection.followingUserId = user.userId');
         $this->db->join('reactions', 'reactions.post_id = post.postId', 'left');
-        $this->db->where("connection.currentUserId = $userId");
+        $this->db->where("connection.currentUserId", $userId);
+        $this->db->where('post.status', 'Published'); // Filter for published posts
         $this->db->order_by('post.dateTime', 'desc');
         $timelineResult = $this->db->get();
-
+    
         if ($timelineResult->num_rows() > 0) {
             $otherPosts = $timelineResult->result();
         }
-
+    
+        // Merge and sort posts
         if (count($userPosts) != 0 and count($otherPosts) != 0) {
             $allPosts = array_merge($userPosts, $otherPosts);
-
+    
             usort($allPosts, function ($a, $b) {
                 return strtotime($b->dateTime) - strtotime($a->dateTime);
             });
-
+    
             return $allPosts;
         } elseif (count($userPosts) != 0 and count($otherPosts) == 0) {
             return $userPosts;
@@ -304,31 +307,6 @@ class PostManager extends CI_Model
         return true;
     }
 
-    // private function getCommentsForPost($postId) {
-    //     try {
-    //         $this->db->where('post_id', $postId);
-    //         $query = $this->db->get('comments');
-    //         return $query->result();
-
-    //     } catch (Exception $e) {
-    //         // Log the error message
-    //         error_log($e->getMessage());
-    //         return false;
-    //     }
-    // }
-
-    // public function getLikesForPost($postId) {
-    //     try {
-    //         $this->db->where('post_id', $postId);
-    //         $query = $this->db->get('likes');
-    //         return $query->result();
-
-    //     } catch (Exception $e) {
-    //         // Log the error message
-    //         error_log($e->getMessage());
-    //         return false;
-    //     }
-    // }
     public function searchPosts($query)
     {
         $this->db->select('postId, title, postContent, category, tags, status, draft_status');

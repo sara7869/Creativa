@@ -216,9 +216,11 @@ class SiteController extends CI_Controller
         }
         $userId = $this->session->userdata('userId');
         $profileResult = $this->UserManager->getProfileData($userId);
-        $postResult = $this->PostManager->retrievePosts($userId);
+        $publishedPosts = $this->PostManager->retrievePublishedPosts($userId);
+        $draftPosts = $this->PostManager->retrieveDraftPosts($userId);
         $this->load->view('user_homepage', array(
-            'posts' => $postResult,
+            'publishedPosts' => $publishedPosts,
+            'draftPosts' => $draftPosts,
             'profileData' => $profileResult[0],
             'genreData' => $profileResult[1]
         ));
