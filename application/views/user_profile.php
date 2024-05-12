@@ -36,13 +36,15 @@
                 <i class="dropdown icon"></i>
                 <div class="default text">Select Genres</div>
                 <div class="menu">
-                    <div class="item" data-value="rock">Rock</div>
-                    <div class="item" data-value="jazz">Jazz</div>
-                    <div class="item" data-value="dubstep">Dubstep</div>
-                    <div class="item" data-value="techno">Techno</div>
-                    <div class="item" data-value="country">Country</div>
-                    <div class="item" data-value="electro">Electro</div>
-                    <div class="item" data-value="pop">Pop</div>
+                    <div class="item" data-value="fiction">Fiction</div>
+                    <div class="item" data-value="non-fiction">Non-fiction</div>
+                    <div class="item" data-value="dubstep">Mystery</div>
+                    <div class="item" data-value="techno">Thriller</div>
+                    <div class="item" data-value="country">Horror</div>
+                    <div class="item" data-value="electro">Romance</div>
+                    <div class="item" data-value="pop">Fantasy</div>
+                    <div class="item" data-value="scifi">Science Fiction</div>
+
                 </div>
             </div>
         </div>
