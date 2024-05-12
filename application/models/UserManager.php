@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/17/2019
- * Time: 12:29 PM
- */
-
 class UserManager extends CI_Model
 {
 

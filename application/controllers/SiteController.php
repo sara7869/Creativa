@@ -502,4 +502,33 @@ class SiteController extends CI_Controller
         $actionResult = $this->UserManager->userActions($userId, $actionType, $foundUserId);
         redirect('/SiteController/homepage');
     }
+
+    public function reactToPost()
+{
+    if (!$this->session->userdata('user_logged_in')) {
+        redirect('/UserController/login');
+    }
+    $postId = $this->input->post('postId');
+    $userId = $this->session->userdata('userId');
+    $reactionType = $this->input->post('reaction');
+
+    $this->PostManager->reactToPost($postId, $userId, $reactionType);
+
+    redirect('/SiteController/timelinePage');
+}
+
+public function reactToPostHomePage()
+{
+    if (!$this->session->userdata('user_logged_in')) {
+        redirect('/UserController/login');
+    }
+    $postId = $this->input->post('postId');
+    $userId = $this->session->userdata('userId');
+    $reactionType = $this->input->post('reaction');
+
+    $this->PostManager->reactToPost($postId, $userId, $reactionType);
+
+    redirect('/SiteController/homePage');
+}
+
 }

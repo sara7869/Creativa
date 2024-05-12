@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/18/2019
- * Time: 6:55 PM
- */
 
 class Connection extends CI_Model {
 

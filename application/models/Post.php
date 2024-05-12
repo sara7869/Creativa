@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/18/2019
- * Time: 11:11 AM
- */
-
 class Post extends CI_Model
 {
 

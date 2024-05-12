@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/17/2019
- * Time: 2:20 AM
- */
 
 class Genre extends CI_Model {
 

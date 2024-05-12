@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 12/29/2019
- * Time: 11:12 PM
- */
 
 use chriskacerguis\RestServer\RestController;
 

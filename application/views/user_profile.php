@@ -22,7 +22,7 @@
                    value="<?php echo $profileData[0]->getProfileName(); ?>" required>
         </div>
         <div class="ui segment ui input focus">
-            <input type="email" id="emailAddress" name="emailAddress" placeholder="Email (suwadith@gmail.com)"
+            <input type="email" id="emailAddress" name="emailAddress" placeholder="Email (sara@gmail.com)"
                    value="<?php echo $profileData[0]->getUserEmail(); ?>" required>
         </div>
         <div class="ui segment ui input focus">

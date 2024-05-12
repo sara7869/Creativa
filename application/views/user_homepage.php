@@ -161,6 +161,23 @@
 
                     <p class="postContent" style="margin-left: 65px;"><?php echo $post->postContent; ?></p>
                     <?php $this->load->view('like_button', ['postId' => $post->getPostId(), 'isLiked' => $isLiked]); ?>
+                    <div>
+                        <form method="post" action="<?php echo site_url('SiteController/reactToPostHomePage'); ?>">
+                            <input type="hidden" name="postId" value="<?php echo $post->postId; ?>">
+                            <button type="submit" name="reaction" value="happy">😊</button>
+                            <span><?php echo $post->happy_count; ?></span>
+                            <button type="submit" name="reaction" value="surprised">😲</button>
+                            <span><?php echo $post->surprised_count; ?></span>
+                            <button type="submit" name="reaction" value="sad">😢</button>
+                            <span><?php echo $post->sad_count; ?></span>
+                            <button type="submit" name="reaction" value="angry">😡</button>
+                            <span><?php echo $post->angry_count; ?></span>
+                            <button type="submit" name="reaction" value="laughing">😆</button>
+                            <span><?php echo $post->laughing_count; ?></span>
+                            <button type="submit" name="reaction" value="fire">🔥</button>
+                            <span><?php echo $post->fire_count; ?></span>
+                        </form>
+                    </div>
                     <?php if (!empty($post->image)) : ?>
                         <img src="<?php echo $post->image; ?>" alt="Post Image" style="max-width: 100%; height: auto; max-height: 10rem; display: block; margin: 0 auto;">
                     <?php endif; ?>

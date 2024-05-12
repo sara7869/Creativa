@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/24/2019
- * Time: 10:08 PM
- */
-
 class UserController extends CI_Controller
 {
 

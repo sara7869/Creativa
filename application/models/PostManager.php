@@ -1,20 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/18/2019
- * Time: 11:11 AM
- */
 
-//include_once('Post.php');
-
-class PostManager extends CI_Model {
+class PostManager extends CI_Model
+{
 
     /**
      * PostManager constructor.
      * Loaded the DB connection module to do DB functions.
      */
-    public function __construct() {
+    public function __construct()
+    {
         $this->load->database();
     }
 
@@ -24,7 +18,8 @@ class PostManager extends CI_Model {
      *
      * Creating a post using both the content and user ID.
      */
-    public function createPost($postData, $userId) {
+    public function createPost($postData, $userId)
+    {
         $postData['userId'] = $userId;
         $postData['dateTime'] = date("Y-m-d H:i:s");
 
@@ -50,7 +45,8 @@ class PostManager extends CI_Model {
      *
      * retrieving selected user's post.
      */
-    public function retrievePosts($userId) {
+    public function retrievePosts($userId)
+    {
         $this->db->select('postId, title, postContent, image, userId, dateTime');
         $this->db->from('post');
         $this->db->where('userId', $userId);
@@ -83,13 +79,14 @@ class PostManager extends CI_Model {
      *
      * Method to edit selected post.
      */
-    public function editSelectedPost($postId) {
+    public function editSelectedPost($postId)
+    {
         $this->db->where('postId', $postId);
         $result = $this->db->get('post');
 
-             if($result->num_rows() > 0) {
-                 return $result->custom_result_object('Post');
-             }
+        if ($result->num_rows() > 0) {
+            return $result->custom_result_object('Post');
+        }
     }
 
 
@@ -99,11 +96,12 @@ class PostManager extends CI_Model {
      *
      * Method to edit/update post.
      */
-    public function updateSelectedPost($postId, $postContent) {
+    public function updateSelectedPost($postId, $postContent)
+    {
         $this->db->where('postId', $postId);
         $result = $this->db->get('post');
 
-        if($result->num_rows() > 0) {
+        if ($result->num_rows() > 0) {
             $postObjArray = $result->custom_result_object('Post');
             $postObj = $postObjArray[0];
             $postObj->updatePostData($postContent);
@@ -118,16 +116,19 @@ class PostManager extends CI_Model {
      *
      * Method to delete selected post using post ID.
      */
-    public function deleteSelectedPost($postId) {
+    public function deleteSelectedPost($postId)
+    {
         $this->db->where('postId', $postId);
         $this->db->delete('post');
     }
 
-    public function viewSelectedPost($postId) {
+    public function viewSelectedPost($postId)
+    {
         return $this->getPostContent($postId);
     }
 
-    public function getPostContent($postId) {
+    public function getPostContent($postId)
+    {
         $query = $this->db->get_where('post', array('postId' => $postId));
         return $query->row_array();
     }
@@ -140,51 +141,63 @@ class PostManager extends CI_Model {
      * Method to populate timeline posts by combining user's own posts and follower's post and then merging them on to an array
      * and then reordering them in descending time order.
      */
-    public function getTimelinePosts($userId) {
-
+    public function getTimelinePosts($userId)
+    {
         $userPosts = array();
         $otherPosts = array();
-        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title');
+        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title,
+        SUM(CASE WHEN reactions.reaction_type = "happy" THEN 1 ELSE 0 END) AS happy_count,
+        SUM(CASE WHEN reactions.reaction_type = "surprised" THEN 1 ELSE 0 END) AS surprised_count,
+        SUM(CASE WHEN reactions.reaction_type = "sad" THEN 1 ELSE 0 END) AS sad_count,
+        SUM(CASE WHEN reactions.reaction_type = "angry" THEN 1 ELSE 0 END) AS angry_count,
+        SUM(CASE WHEN reactions.reaction_type = "laughing" THEN 1 ELSE 0 END) AS laughing_count,
+        SUM(CASE WHEN reactions.reaction_type = "fire" THEN 1 ELSE 0 END) AS fire_count');
         $this->db->from('post');
         $this->db->join('user', 'user.userId = post.userId');
+        $this->db->join('reactions', 'reactions.post_id = post.postId', 'left');
         $this->db->where('user.userId', $userId);
         $this->db->order_by('post.dateTime', 'desc');
         $result = $this->db->get();
+        echo "Test";
 
         if ($result->num_rows() > 0) {
             $userPosts = $result->result();
         }
 
-
-        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title');
+        $this->db->select('post.postId, post.postContent, user.userId, user.avatarUrl, user.profileName, user.username, post.dateTime, post.like_count, post.image, post.title,
+        SUM(CASE WHEN reactions.reaction_type = "happy" THEN 1 ELSE 0 END) AS happy_count,
+        SUM(CASE WHEN reactions.reaction_type = "surprised" THEN 1 ELSE 0 END) AS surprised_count,
+        SUM(CASE WHEN reactions.reaction_type = "sad" THEN 1 ELSE 0 END) AS sad_count,
+        SUM(CASE WHEN reactions.reaction_type = "angry" THEN 1 ELSE 0 END) AS angry_count,
+        SUM(CASE WHEN reactions.reaction_type = "laughing" THEN 1 ELSE 0 END) AS laughing_count,
+        SUM(CASE WHEN reactions.reaction_type = "fire" THEN 1 ELSE 0 END) AS fire_count');        
         $this->db->from('post');
         $this->db->join('connection', 'post.userId = connection.followingUserId');
         $this->db->join('user', 'connection.followingUserId = user.userId');
+        $this->db->join('reactions', 'reactions.post_id = post.postId', 'left');
         $this->db->where("connection.currentUserId = $userId");
         $this->db->order_by('post.dateTime', 'desc');
         $timelineResult = $this->db->get();
 
-        if($timelineResult->num_rows() > 0){
+        if ($timelineResult->num_rows() > 0) {
             $otherPosts = $timelineResult->result();
         }
 
-        if(count($userPosts)!=0 AND count($otherPosts)!=0) {
+        if (count($userPosts) != 0 and count($otherPosts) != 0) {
             $allPosts = array_merge($userPosts, $otherPosts);
 
-            usort($allPosts, function($a, $b) {
+            usort($allPosts, function ($a, $b) {
                 return strtotime($b->dateTime) - strtotime($a->dateTime);
             });
 
             return $allPosts;
-        }elseif(count($userPosts)!=0 AND count($otherPosts)==0){
+        } elseif (count($userPosts) != 0 and count($otherPosts) == 0) {
             return $userPosts;
-        }elseif(count($userPosts)==0 AND count($otherPosts)!=0){
+        } elseif (count($userPosts) == 0 and count($otherPosts) != 0) {
             return $otherPosts;
-        }else {
+        } else {
             return null;
         }
-
-
     }
 
     /**
@@ -193,7 +206,8 @@ class PostManager extends CI_Model {
      *
      * Validation to prevent unauthorized post deletion.
      */
-    public function getPostOwnerId($postId) {
+    public function getPostOwnerId($postId)
+    {
         $this->db->select('userId');
         $this->db->where('postId', $postId);
         $ownerResult = $this->db->get('post');
@@ -203,11 +217,11 @@ class PostManager extends CI_Model {
         } else {
             return 'Error';
         }
-
     }
 
-    public function likePost($postId, $userId) {
-        if (!is_numeric($postId) ||!is_numeric($userId)) {
+    public function likePost($postId, $userId)
+    {
+        if (!is_numeric($postId) || !is_numeric($userId)) {
             // Handle invalid input, e.g., log an error or throw an exception
             return false;
         }
@@ -216,7 +230,7 @@ class PostManager extends CI_Model {
         echo $isLiked;
         if ($isLiked) {
             // User has already liked the post, so unlike it
-            $result =$this->unlikePost($postId, $userId);
+            $result = $this->unlikePost($postId, $userId);
             if (!$result) {
                 // Log or handle the error
                 return false;
@@ -236,11 +250,12 @@ class PostManager extends CI_Model {
                 return false;
             }
         }
-    
+
         return true;
     }
 
-    private function checkIfUserLikedPost($postId, $userId) {
+    private function checkIfUserLikedPost($postId, $userId)
+    {
         $this->db->where('post_id', $postId);
         $this->db->where('user_id', $userId);
         $query = $this->db->get('likes');
@@ -251,11 +266,12 @@ class PostManager extends CI_Model {
         }
     }
 
-    private function unlikePost($postId, $userId) {
+    private function unlikePost($postId, $userId)
+    {
         $this->db->where('postId', $postId);
         $this->db->where('userId', $userId);
         $this->db->delete('likes');
-    
+
         $this->db->where('postId', $postId);
         // $this->db->set('like_count', 'like_count - 1', FALSE);
         $result = $this->db->update('post', array('like_count' => 'like_count - 1'));
@@ -263,7 +279,8 @@ class PostManager extends CI_Model {
         return $result;
     }
 
-    private function likePostCount($postId) {
+    private function likePostCount($postId)
+    {
         try {
             $this->db->where('postId', $postId);
             // $result = $this->db->update('post', array('like_count' => 'like_count + 1'));
@@ -277,7 +294,8 @@ class PostManager extends CI_Model {
         }
     }
 
-    private function addUserToLikes($postId, $userId) {
+    private function addUserToLikes($postId, $userId)
+    {
         $data = array(
             'post_id' => $postId,
             'user_id' => $userId
@@ -311,7 +329,8 @@ class PostManager extends CI_Model {
     //         return false;
     //     }
     // }
-    public function searchPosts($query) {
+    public function searchPosts($query)
+    {
         $this->db->select('postId, title, postContent, category, tags, status, draft_status');
         $this->db->like('title', $query);
         $this->db->or_like('postContent', $query);
@@ -323,7 +342,8 @@ class PostManager extends CI_Model {
         return $query->result_array();
     }
 
-    public function getCommentsForPost($postId) {
+    public function getCommentsForPost($postId)
+    {
         $this->db->select('*');
         $this->db->from('comments');
         $this->db->where('post_id', $postId);
@@ -331,7 +351,8 @@ class PostManager extends CI_Model {
         return $query->result_array();
     }
 
-    public function getLikesForPost($postId) {
+    public function getLikesForPost($postId)
+    {
         $this->db->select('*');
         $this->db->from('likes');
         $this->db->where('post_id', $postId);
@@ -339,4 +360,37 @@ class PostManager extends CI_Model {
         return $query->result_array();
     }
 
+    public function reactToPost($postId, $userId, $reactionType)
+    {
+        $existingReaction = $this->db->get_where('reactions', array('post_id' => $postId, 'user_id' => $userId))->row();
+
+        if ($existingReaction) {
+            $this->db->where('post_id', $postId);
+            $this->db->where('user_id', $userId);
+            $this->db->update('reactions', array('reaction_type' => $reactionType));
+        } else {
+            $this->db->insert('reactions', array('post_id' => $postId, 'user_id' => $userId, 'reaction_type' => $reactionType));
+        }
+
+        $this->updateReactionCounts($postId);
+    }
+
+    private function updateReactionCounts($postId)
+    {
+        // Query to get reaction counts for the post
+        $this->db->select('reaction_type, COUNT(*) as count');
+        $this->db->from('reactions');
+        $this->db->where('post_id', $postId);
+        $this->db->group_by('reaction_type');
+        $counts = $this->db->get()->result_array();
+
+        // Update reaction counts in the post table
+        $updateData = array();
+        foreach ($counts as $count) {
+            $updateData[$count['reaction_type'] . '_count'] = $count['count'];
+        }
+
+        $this->db->where('post_id', $postId);
+        $this->db->update('post', $updateData);
+    }
 }

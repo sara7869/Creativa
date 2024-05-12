@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Suwadith
- * Date: 11/17/2019
- * Time: 8:03 AM
- */
 
 class User extends CI_Model {
     public $userId;
