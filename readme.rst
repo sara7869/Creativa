@@ -2,10 +2,10 @@
 Overview
 *********
 
-This is a project built to demostrate the advanteages of using the CodeIgniter framework.
+Creativa - Advanced Server Side Module Coursework
 
 **************************************
-Some of the features/technologies used
+Features and Technologies used
 **************************************
 
 CodeIgniter - MVC architecture, Active Record DB, Form Validation, Session Management
@@ -16,19 +16,27 @@ BackboneJS
 Functionalties
 **************
 
-1. Ability to register and login.
+1. Ability to register, login, reset password and delete account.
 
-2. Creating a profile with custom profile picture (URL).
+2. Create and edit user profiles with custom profile picture (URL).
 
-3. Ability to make posts with automatic image URL detection (Converts to a picture) and hyperlink convertion.
+3. Ability to make posts with a title, post image, categories, tags and post content.
 
 4. Ability to edit and delete posts.
 
-5. Search and follow/unfollow fellow users using music genres.
+5. Search and follow/unfollow users.
 
-6. Ability to view other users' profile timeline.
+6. Ability to view other users' profile.
 
-7. Ability to store contact details and edit/delete/search using tag names.
+7. Ability to store contact details and edit/delete/search.
+
+8. Ability to like and comment on posts.
+
+9. Posts can have Draft or Published status.
+
+10. Ability to search by post content, categories, tags and author names.
+
+11. Activity Feed functionality.
 
 ***********
 Asset Paths
@@ -39,36 +47,4 @@ Asset Paths
 2. Custom bootstrap - assets/semantic
 
 3. MySQL DB - assets/sql
-
-**********
-Screnshots
-**********
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/1.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/2.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/3.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/4.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/5.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/6.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/7.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/8.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/9.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/10.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/11.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/12.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/13.png
-
-.. image:: https://github.com/Suwadith/Music-Based-Social-Network-CodeIgniter/blob/master/screenshots/14.png
 
